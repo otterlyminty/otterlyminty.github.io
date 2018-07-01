@@ -8,6 +8,6 @@ I'm a guy in Canada. Early twenties. I write stuff, I draw stuff. This is where 
 
 ### Made in Twine 2
 
-[Survivor: Inca Legacy](twine/IncaLegacy1.html)
+[Survivor: Inca Legacy](twine/IncaLegacy.html)
 
 The third season of my not-a-hit Survivor fanfiction series. In progress.
