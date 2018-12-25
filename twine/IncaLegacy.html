@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>IncaLegacy2</title>
+<title>IncaLegacy</title>
 <style title="Twine CSS">@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}@-webkit-keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@-webkit-keyframes rumble{50%{-webkit-transform:translateY(-0.2em);transform:translateY(-0.2em)}}@keyframes rumble{50%{-webkit-transform:translateY(-0.2em);transform:translateY(-0.2em)}}@-webkit-keyframes shudder{50%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@keyframes shudder{50%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@-webkit-keyframes box-flash{0%{background-color:white;color:white}}@keyframes box-flash{0%{background-color:white;color:white}}@-webkit-keyframes pulse{0%{-webkit-transform:scale(0, 0);transform:scale(0, 0)}20%{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}40%{-webkit-transform:scale(0.9, 0.9);transform:scale(0.9, 0.9)}60%{-webkit-transform:scale(1.05, 1.05);transform:scale(1.05, 1.05)}80%{-webkit-transform:scale(0.925, 0.925);transform:scale(0.925, 0.925)}to{-webkit-transform:scale(1, 1);transform:scale(1, 1)}}@keyframes pulse{0%{-webkit-transform:scale(0, 0);transform:scale(0, 0)}20%{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}40%{-webkit-transform:scale(0.9, 0.9);transform:scale(0.9, 0.9)}60%{-webkit-transform:scale(1.05, 1.05);transform:scale(1.05, 1.05)}80%{-webkit-transform:scale(0.925, 0.925);transform:scale(0.925, 0.925)}to{-webkit-transform:scale(1, 1);transform:scale(1, 1)}}@-webkit-keyframes shudder-in{0%, to{-webkit-transform:translateX(0em);transform:translateX(0em)}5%, 25%, 45%{-webkit-transform:translateX(-1em);transform:translateX(-1em)}15%, 35%, 55%{-webkit-transform:translateX(1em);transform:translateX(1em)}65%{-webkit-transform:translateX(-0.6em);transform:translateX(-0.6em)}75%{-webkit-transform:translateX(0.6em);transform:translateX(0.6em)}85%{-webkit-transform:translateX(-0.2em);transform:translateX(-0.2em)}95%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@keyframes shudder-in{0%, to{-webkit-transform:translateX(0em);transform:translateX(0em)}5%, 25%, 45%{-webkit-transform:translateX(-1em);transform:translateX(-1em)}15%, 35%, 55%{-webkit-transform:translateX(1em);transform:translateX(1em)}65%{-webkit-transform:translateX(-0.6em);transform:translateX(-0.6em)}75%{-webkit-transform:translateX(0.6em);transform:translateX(0.6em)}85%{-webkit-transform:translateX(-0.2em);transform:translateX(-0.2em)}95%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}.debug-mode tw-expression[type=hookref]{background-color:rgba(115,123,140,0.15)}.debug-mode tw-expression[type=hookref]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"?" attr(name)}.debug-mode tw-expression[type=variable]{background-color:rgba(140,128,115,0.15)}.debug-mode tw-expression[type=variable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]{background-color:rgba(140,128,115,0.15)}.debug-mode tw-expression[type=tempVariable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[type=macro]:nth-of-type(4n+0){background-color:rgba(136,153,102,0.15)}.debug-mode tw-expression[type=macro]:nth-of-type(2n+1){background-color:rgba(102,153,102,0.15)}.debug-mode tw-expression[type=macro]:nth-of-type(4n+2){background-color:rgba(102,153,136,0.15)}.debug-mode tw-expression[type=macro][name="display"]{background-color:rgba(0,170,255,0.1) !important}.debug-mode tw-expression[type=macro][name="if"],.debug-mode tw-expression[type=macro][name="if"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="unless"],.debug-mode tw-expression[type=macro][name="unless"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="elseif"],.debug-mode tw-expression[type=macro][name="elseif"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="else"],.debug-mode tw-expression[type=macro][name="else"]+tw-hook:not([name]){background-color:rgba(0,255,0,0.1) !important}.debug-mode tw-expression[type=macro].false{background-color:rgba(255,0,0,0.2) !important}.debug-mode tw-expression[type=macro].false+tw-hook:not([name]){display:none}.debug-mode tw-expression[type=macro][name="a"],.debug-mode tw-expression[type=macro][name="array"],.debug-mode tw-expression[type=macro][name="datamap"],.debug-mode tw-expression[type=macro][name="dataset"],.debug-mode tw-expression[type=macro][name="colour"],.debug-mode tw-expression[type=macro][name="color"],.debug-mode tw-expression[type=macro][name="num"],.debug-mode tw-expression[type=macro][name="number"],.debug-mode tw-expression[type=macro][name="text"],.debug-mode tw-expression[type=macro][name="print"]{background-color:rgba(255,255,0,0.2) !important}.debug-mode tw-expression[type=macro][name="put"],.debug-mode tw-expression[type=macro][name="set"]{background-color:rgba(255,128,0,0.2) !important}.debug-mode tw-expression[type=macro][name="script"]{background-color:rgba(255,191,0,0.2) !important}.debug-mode tw-expression[type=macro][name="style"]{background-color:rgba(185,198,198,0.2) !important}.debug-mode tw-expression[type=macro][name^="link"],.debug-mode tw-expression[type=macro][name^="click"],.debug-mode tw-expression[type=macro][name^="mouseover"],.debug-mode tw-expression[type=macro][name^="mouseout"]{background-color:rgba(128,223,32,0.2) !important}.debug-mode tw-expression[type=macro][name^="replace"],.debug-mode tw-expression[type=macro][name^="prepend"],.debug-mode tw-expression[type=macro][name^="append"],.debug-mode tw-expression[type=macro][name^="remove"]{background-color:rgba(223,96,32,0.2) !important}.debug-mode tw-expression[type=macro][name="live"]{background-color:rgba(32,96,223,0.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 0.5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,0.5)}.debug-mode tw-hook{background-color:rgba(0,85,255,0.1) !important}.debug-mode tw-hook::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,0.1) !important}.debug-mode tw-collapsed::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 50%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, rgba(255,204,189,0.25) 0%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,0.2)}.debug-mode tw-enchantment{animation:enchantment 0.5s infinite;-webkit-animation:enchantment 0.5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,0.1)}.debug-mode tw-include::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(type) ' "' attr(title) '"'}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}@-webkit-keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:10em;min-height:1em;padding:1em;font-size:1.25em;font-family:sans-serif;border-left:solid #000 2px;border-top:solid #000 2px;border-top-left-radius:.5em;background:#fff;opacity:1}tw-debugger select{margin-right:1em;width:12em}tw-debugger button{border-radius:3px;border:solid #999 1px;margin:auto 4px;background-color:#fff;font-size:inherit}tw-debugger button.enabled{background-color:#eee;box-shadow:inset #ddd 3px 5px 0.5em}tw-debugger .variables{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;max-height:40vh;overflow-y:scroll;overflow-x:hidden;z-index:999998;background:#fff;border:inherit;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:0.8em}tw-debugger .variables:empty,tw-debugger .variables[hidden]{display:none}tw-debugger .variables .variable-row{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:horizontal;-webkit-flex-direction:row;-moz-flex-direction:row;-ms-flex-direction:row;flex-direction:row;flex-shrink:0}tw-debugger .variables .variable-row:nth-child(2n){background:#EEE}tw-debugger .variables .variable-name{display:inline-block;width:50%}tw-debugger .variables .variable-name::before{content:"$"}tw-debugger .variables .variable-name.temporary::before{content:"_"}tw-debugger .variables .variable-name .temporary-variable-scope{opacity:0.8;font-size:0.75em}tw-debugger .variables .variable-name .temporary-variable-scope::before{content:" in "}tw-debugger .variables .variable-value{display:inline-block;width:50%}tw-link,.link,tw-icon,.enchantment-clickblock{cursor:pointer}tw-link,.enchantment-link{color:#4169E1;font-weight:bold;text-decoration:none;transition:color 0.2s ease-in-out}tw-enchantment[style^="color"] tw-link:not(:hover),tw-enchantment[style*=" color"] tw-link:not(:hover),tw-enchantment[style^="color"] .enchantment-link:not(:hover),tw-enchantment[style*=" color"] .enchantment-link:not(:hover){color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#DD4B39}.visited{color:#6941e1}tw-enchantment[style^="color"] .visited:not(:hover),tw-enchantment[style*=" color"] .visited:not(:hover){color:inherit}.visited:hover{color:#E3E}tw-broken-link{color:#993333;border-bottom:2px solid #993333;cursor:not-allowed}tw-enchantment[style^="color"] tw-broken-link:not(:hover),tw-enchantment[style*=" color"] tw-broken-link:not(:hover){color:inherit}.enchantment-mouseover{border-bottom:1px dashed #666}.enchantment-mouseout{border:rgba(64,149,191,0.25) 1px solid}.enchantment-mouseout:hover{background-color:rgba(64,149,191,0.25);border:transparent 1px solid;border-radius:0.2em}.enchantment-clickblock{box-shadow:inset 0 0 0 0.5vmax;display:block;color:rgba(65,105,225,0.5);transition:color 0.2s ease-in-out}.enchantment-clickblock:hover{color:rgba(0,191,255,0.5)}.enchantment-clickblock:active{color:rgba(222,78,59,0.5)}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;font:100% Georgia, serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 20%;margin:0;background-color:#000;color:#fff}tw-passage{display:block}br+br{display:block;height:0;margin:0.8ex 0}tw-sidebar{left:-5em;width:3em;position:absolute;text-align:center;display:block}tw-icon{display:block;margin:0.5em 0;opacity:0.1;font-size:2.75em}tw-icon:hover{opacity:0.3}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:0.2em;padding:0.2em;font-size:1rem;cursor:help}tw-error.error{background-color:rgba(223,58,190,0.4);color:#fff}tw-error.warning{background-color:rgba(223,140,58,0.4);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:0.8rem;line-height:1rem}tw-error-explanation-button{cursor:pointer;line-height:0em;border-radius:1px;border:1px solid black;font-size:0.8rem;margin:0 0.4rem;opacity:0.5}tw-error-explanation-button .folddown-arrowhead{display:inline-block}tw-notifier{border-radius:0.2em;padding:0.2em;font-size:1rem;background-color:rgba(223,182,58,0.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid black;display:inline-block;width:1em;height:1em}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:0.3em 0 0.6em 0}pre{font-size:1rem}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,0.6);background-color:#ff9}ins{color:rgba(0,0,0,0.6);background-color:rgba(255,242,204,0.5);border-radius:0.5em;box-shadow:0em 0em 0.2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate;-webkit-animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:horizontal;-webkit-flex-direction:row;-moz-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:space-between;-moz-justify-content:space-between;justify-content:space-between}tw-outline{color:white;text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000}tw-shadow{text-shadow:0.08em 0.08em 0.08em #000}tw-emboss{text-shadow:0.08em 0.08em 0em #000;color:white}tw-condense{letter-spacing:-0.08em}tw-expand{letter-spacing:0.1em}tw-blur{color:transparent;text-shadow:0em 0em 0.08em #000}tw-blurrier{color:transparent;text-shadow:0em 0em 0.2em #000}tw-blurrier::selection{background-color:transparent;color:transparent}tw-blurrier::-moz-selection{background-color:transparent;color:transparent}tw-smear{color:transparent;text-shadow:0em 0em 0.02em rgba(0,0,0,0.75),-0.2em 0em 0.5em rgba(0,0,0,0.5),0.2em 0em 0.5em rgba(0,0,0,0.5)}tw-mirror{display:inline-block;transform:scaleX(-1);-webkit-transform:scaleX(-1)}tw-upside-down{display:inline-block;transform:scaleY(-1);-webkit-transform:scaleY(-1)}tw-fade-in-out{text-decoration:none;animation:fade-in-out 2s ease-in-out infinite alternate;-webkit-animation:fade-in-out 2s ease-in-out infinite alternate}tw-rumble{-webkit-animation:rumble linear 0.1s 0s infinite;animation:rumble linear 0.1s 0s infinite;display:inline-block}tw-shudder{-webkit-animation:shudder linear 0.1s 0s infinite;animation:shudder linear 0.1s 0s infinite;display:inline-block}tw-shudder-in{animation:shudder-in 1s ease-out;-webkit-animation:shudder-in 1s ease-out}.transition-in{-webkit-animation:appear 0ms step-start;animation:appear 0ms step-start}.transition-out{-webkit-animation:appear 0ms step-end;animation:appear 0ms step-end}[data-t8n^=fade-in].transition-in{-webkit-animation:appear .8s;animation:appear .8s}[data-t8n^=fade-in].transition-out{display:none}[data-t8n^=dissolve].transition-in{-webkit-animation:appear .8s;animation:appear .8s}[data-t8n^=dissolve].transition-out{-webkit-animation:appear .8s reverse;animation:appear .8s reverse}[data-t8n^=shudder-in].transition-in,.transition-in[data-t8n^=shudder]{display:inline-block;-webkit-animation:shudder-in .8s;animation:shudder-in .8s}[data-t8n^=shudder-out].transition-out,.transition-out[data-t8n^=shudder]{display:inline-block;-webkit-animation:shudder-out .8s;animation:shudder-out .8s}[data-t8n^=boxflash].transition-in{-webkit-animation:box-flash .8s;animation:box-flash .8s}[data-t8n^=pulse].transition-in{-webkit-animation:pulse .8s;animation:pulse .8s;display:inline-block}[data-t8n^=pulse].transition-out{-webkit-animation:pulse .8s reverse;animation:pulse .8s reverse;display:inline-block}[data-t8n$=fast]{animation-duration:.4s;-webkit-animation-duration:.4s}[data-t8n$=slow]{animation-duration:1.6s;-webkit-animation-duration:1.6s}
 </style>
 </head>
@@ -11,7 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="IncaLegacy2" startnode="1" creator="Twine" creator-version="2.2.1" ifid="D5BE4383-5031-4583-91E3-D23F4FDE484A" zoom="0.6" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body, tw-story
+<tw-storydata name="IncaLegacy" startnode="1" creator="Twine" creator-version="2.2.1" ifid="D5BE4383-5031-4583-91E3-D23F4FDE484A" zoom="0.6" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body, tw-story
 {
   font-size: 20px;
 }
@@ -27,6 +27,8 @@
     color: #8e2;
     font-weight: normal; 
 }
+
+
 
 
 
@@ -80,6 +82,8 @@
 
 
 
+
+
 </script><tw-passagedata pid="1" name="Introduction" tags="" position="799,419" size="200,100">(set: $c to (colour: red + white + white))(set: $o to (colour: green + yellow + green + white))(set: $q to (colour: purple + blue + black))(set: $v to (colour: blue + white))(set: $t to (colour: orange + gray + gray + red))The camera pans through and over hills, mountains, and a tropical rainforest. Small rainclouds race through the sky as the sun emerges from behind the jungle canopy, illuminating the vibrant landscape.
 
 A blond-haired &lt;span class=&#39;secretlink&#39;&gt; (link: &quot;French Canadian&quot;)[Québécois]&lt;/span&gt; man with a blue jacket and Capri pants admires the view from atop one particularly high foothill.
@@ -104,6 +108,7 @@ Select an episode below:
 &lt;span class=&#39;episode&#39;&gt;[[Day 4&lt;-Episode 2 - &quot;Well, Aren&#39;t You a Cheerful Little Fuzzball&quot;]]&lt;/span&gt;
 &lt;span class=&#39;episode&#39;&gt;[[Day 7&lt;-Episode 3 - &quot;We Are Allies, You Need Me&quot;]]&lt;/span&gt;
 &lt;span class=&#39;episode&#39;&gt;[[Day 10&lt;-Episode 4 - &quot;Does the Medic Have Whiskey?&quot;]]&lt;/span&gt;
+&lt;span class=&#39;episode&#39;&gt;[[Day 12&lt;-Episode 5 - &quot;Idols Don&#39;t Tell Lies&quot;]]&lt;/span&gt;
 (set: $arrive to &quot;The votenum members of votedpeople arrive at the Town Square and put their torches back where they belong.&quot;)
 (set: $votesarein to &quot;With the final vote cast, Vincent goes to the voting booth to collect the voting urn. $v[\&quot;Once the votes are read, the decision is final,\&quot;] says Vincent. $v[\&quot;The person voted off will be asked to leave the Tribal Council area immediately. I&#39;ll read the votes...\&quot;]&quot;)
 (set: $boot to &quot;person voted out of Survivor: Inca Legacy&quot;)
@@ -2376,7 +2381,7 @@ Khall is about to say something but Jackie cuts him off.
 
 //&quot;Well, that was uneventful,&quot; says Khall. He shrugs.//
 
-&lt;span class=&#39;newday&#39;&gt;[[Day 8&lt;-Read Day 8]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="10" name="Day 8" tags="" position="378.00000000000006,507.66666666666663" size="100,100">**Day 8**
+&lt;span class=&#39;newday&#39;&gt;[[Day 8&lt;-Read Day 8]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="10" name="Day 8" tags="" position="378,507" size="100,100">**Day 8**
 $c[**Chalpe**]
 
 Buddy is angrily snapping twigs in his hands while mumbling to himself and walking in a circle. He almost doesn&#39;t notice Rhett walk by, carrying some branches for the fire.
@@ -2666,7 +2671,7 @@ Vaclav and Monty turn around and stare dumbfounded when they see Khall, wearing 
 //&quot;How did I do that? What do you mean, how did I do that?&quot; Khall crosses his arms. &quot;Look. Don&#39;t you have more important things to be discussing right about now?&quot;//
 
 &lt;span class=&#39;newday&#39;&gt;[[Day 9&lt;-Read Day 9]]&lt;/span&gt;
-</tw-passagedata><tw-passagedata pid="11" name="Day 9" tags="" position="508.6666666666667,506" size="100,100">**Day 9
+</tw-passagedata><tw-passagedata pid="11" name="Day 9" tags="" position="499,506" size="100,100">**Day 9
 Immunity Challenge**
 
 The challenge is a traditional King of the Hill challenge - each contestant will face off against one member of each opposing tribe, trying to knock each other off a circular, 3-meter-wide platform with sandbags. First to fall off in a round loses a point for their tribe, while the last one standing gains a point.
@@ -3057,7 +3062,7 @@ Buddy - Lisa
 
 &lt;span class=&#39;episode&#39;&gt;[[Introduction&lt;-Back to Title Page]]&lt;/span&gt;
 
-</tw-passagedata><tw-passagedata pid="12" name="Day 10" tags="" position="312.33333333333337,624" size="100,100">$t[**Day 10
+</tw-passagedata><tw-passagedata pid="12" name="Day 10" tags="" position="312,624" size="100,100">$t[**Day 10
 Town Square**]
 
 $arrive
@@ -3349,7 +3354,7 @@ Rocky, completely stunned, quietly backs away.
 &quot;Ash, //please// tell me you&#39;re kidding.&quot;
 
 &lt;span class=&#39;newday&#39;&gt;[[Day 11&lt;-Read Day 11]]&lt;/span&gt;
-</tw-passagedata><tw-passagedata pid="13" name="Day 11" tags="" position="442.33333333333337,622.3333333333333" size="100,100">**Day 11**
+</tw-passagedata><tw-passagedata pid="13" name="Day 11" tags="" position="442,622" size="100,100">**Day 11**
 $q[**Quibas**]
 
 Vaclav is once again pacing back and forth, wringing his hands together.
@@ -3414,12 +3419,9 @@ Back at camp, Paula is sitting in the shelter alone when Jackie walks past.
 
 Each tribe has a board of nine tiles, that they will attempt to break with rocks. Two members from each tribe will need to collect bags of rocks and run them to a conveyer belt, where two more members will manually crank a conveyor belt to move the rocks to the thrower. The thrower will open the bags and attempt to break all nine tiles with the rocks inside. First tribe to do so wins immunity and will have a latrine installed at their camp, the second tribe will only win immunity, and the third-place tribe will go to tribal council.
 
-Bag Collectors:
-$c[Denine and Louie], $o[Ashleia and Saul], $q[Khall and Paula]
-Conveyor Belt Crankers:
-$c[Buddy and Jennifer], $o[Jarrett and Rocky], $q[Monty and Vaclav]
-Throwers:
-$c[Rhett], $o[Candace], $q[Jackie]
+Bag Collectors: $c[Denine and Louie], $o[Ashleia and Saul], $q[Khall and Paula]
+Conveyor Belt Crankers: $c[Buddy and Jennifer], $o[Jarrett and Rocky], $q[Monty and Vaclav]
+Throwers: $c[Rhett], $o[Candace], $q[Jackie]
 
 Chalpe is quickly weighed down by Louie tripping immediately upon the challenge starting, leaving Denine to pick up the slack.
 
@@ -3534,7 +3536,7 @@ Candace tenses up slightly. &quot;Jarrett, I&#39;ve told you before. I would hav
 
 &quot;We can do that.&quot; Candace shakes Jarrett&#39;s hand.
 
-Meanwhile. Saul is busy talking to Jackie.
+Meanwhile, Saul is busy talking to Jackie.
 
 &quot;Have you already been informed by Paula about my proposition?&quot; Saul asks.
 
@@ -3574,7 +3576,7 @@ $v[&quot;Rocky, I can&#39;t help but feel this is directed towards you.&quot;]
 
 &quot;I wish you could only put that aside for us to work better and not be faced with elimination,&quot; Saul replies.
 
-&quot;And I wish //you// would stop being such a good goody snoozefest,&quot; Rocky snaps. &quot;But some of us have principles.&quot;
+&quot;And I wish //you// would stop being such a goody goody snoozefest,&quot; Rocky snaps. &quot;But some of us have principles.&quot;
 
 &quot;This is the problem,&quot; says Saul.
 
@@ -3676,6 +3678,917 @@ Voting Results:
 **Saul - Candace, Jarrett, Rocky**
 Rocky - Ashleia, Saul
 Candace - $q[Jackie]
+
+&lt;span class=&#39;episode&#39;&gt;[[Introduction&lt;-Back to Title Page]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="14" name="Day 12" tags="" position="668,622" size="100,100">$t[**Day 12
+Town Square**]
+
+$arrive
+(replace: &quot;votenum&quot;)[four](replace: &quot;votedpeople&quot;)[Ochora plus Jackie]
+&quot;You know, you could have just told me the truth instead of leaving me in the dark like that,&quot; says Jackie.
+
+&quot;We DID tell you the truth,&quot; says Candace. &quot;We said to vote Rocky, and then you go ahead and try to backstab me? I don&#39;t know about what happens on Quibas, but you can&#39;t expect to get away with that here.&quot;
+
+&quot;Well, to be honest,&quot; says Jackie, &quot;that&#39;s your guys&#39; fault that you don&#39;t know how to actually play the game.&quot;
+
+&quot;Excuse me!&quot; Candace snaps.
+
+Jackie huffs, and crosses her arms. &quot;Is it wrong to assume you were trying to tell me something by saying everyone&#39;s name BUT Candace&#39;s? How could I have known that you didn&#39;t want her out?&quot;
+
+&quot;Didn&#39;t Saul and Ash tell you they were going to blindside me?&quot;
+
+&quot;Oh, is that what you told her?&quot; Rocky smirks at Jarrett.
+
+&quot;Yeah, elaborate,&quot; Candace snaps. &quot;What the fuck, Jarrett!?&quot;
+
+//&quot;This is too perfect!&quot; Rocky grins widely. &quot;Not only did I get yet another bore out, but it was under the guise of protecting myself, and it&#39;s Jarrett who went **out of his way** to take all the blame for it! Ha ha! He was the new tribe leader, he has no excuse!&quot;//
+
+&quot;Look, Candace, I&#39;m sorry for lying to you,&quot; says Jarrett, &quot;but I couldn&#39;t convince Ashleia to turn on him. And like it or not, Rocky&#39;s not the one who went behind our backs to cut a better deal for himself.&quot;
+
+&quot;He wouldn&#39;t betray us!&quot; Ashleia exclaims. &quot;Is that why you did it?&quot;
+
+&quot;Saul told us that he had a deal with the whole tribe. We only had one with Jackie and her weird friend,&quot; says Jarrett. &quot;I couldn&#39;t take the chance that he would flip on us.&quot;
+
+&quot;Um, I never heard about this!&quot; Jackie protests. &quot;Saul wasn&#39;t connected to us any more than you were.&quot;
+
+&quot;Did you ask Paula and Monty?&quot; asks Jarrett.
+
+&quot;He allied with WHO!?&quot; Jackie clenches her fists. &quot;Oh. My God. Why didn&#39;t you just say so!&quot;
+
+&quot;He liked us, Jarrett, he wouldn&#39;t have wanted to flip,&quot; says Ashleia.
+
+&quot;You never know,&quot; says Jarrett. &quot;I didn&#39;t know if the first vote would be held against us.&quot;
+
+//&quot;I couldn&#39;t have done it any other time,&quot; Jarrett explains. &quot;Saul just was too dangerous. If his premonitions were real, that could help him in a way that it could never help Rocky. And now the swap should be fast approaching, and we&#39;ll have more important things to worry about than a little white lie. At least, I hope I don&#39;t have to re-evaluate my standing with Candace.&quot;//
+
+&quot;Well now you can&#39;t really get rid of me since you need the strength,&quot; says Rocky. &quot;Good work.&quot;
+
+&quot;I have more strength than you do,&quot; says Jarrett. &quot;Spray painting railway cars isn&#39;t exercise.&quot;
+
+&quot;Neither is being a huge dork,&quot; says Rocky, &quot;and yet that one guy on Jackie&#39;s tribe seems to be benefitting from it. So, I don&#39;t know what happened with you.&quot;
+
+&quot;You think Vaclav is a dork?&quot; Jackie asks, slightly offended on his behalf.
+
+&quot;With a name like that? Of course,&quot; says Rocky.
+
+//&quot;Rocky needs to learn to shut the hell up,&quot; says Candace. &quot;And then he needs to do that... forever. His voice is like trying to start a car when the engine&#39;s already running! Why is that stupid burnout so arrogant?!&quot;//
+
+$c[**Chalpe**]
+
+&quot;If we won that challenge, you know he&#39;d be gone,&quot; says Rhett.
+
+The entire tribe is sitting between the firepit and the shelter, discussing the tribal council.
+
+&quot;It sounds to me like they don&#39;t like him any more than we do,&quot; Jennifer replies. &quot;I&#39;d say it&#39;s likely they voted him out. If they didn&#39;t, then that&#39;s just giving the five of us a freebie.&quot;
+
+Rhett nods. &quot;If Rocky is still around by the halfway point it&#39;s because the production team wants him to be around.&quot;
+
+&quot;Or maybe he&#39;s actually a capable player behind all that immaturity,&quot; says Denine.
+
+Buddy scoffs. &quot;With his social skills? No way, I&#39;d chalk it up to luck.&quot;
+
+&quot;I mean he&#39;s still more likable than you are,&quot; says Louie.
+
+&quot;You really think that?&quot; Buddy snaps. &quot;Because that&#39;s bull. It&#39;s not my fault if you take offense when-&quot;
+
+&quot;Everything that&#39;s gone wrong here can be traced back to you.&quot;
+
+&quot;You&#39;re blaming ME for LISA? Are you high!?&quot;
+
+//&quot;Louie has absolutely no right to be that smug,&quot; says Buddy. &quot;He makes drama instead of making food. He&#39;s trying to slander me even when nobody believes him. I&#39;m never going to work with that waste of space, and you can count on that.&quot;//
+
+&quot;Don&#39;t try to twist my words to suit your little narrative,&quot; says Louie.
+
+&quot;I&#39;m not doing that,&quot; Buddy interjects. &quot;I&#39;m responding to what you just said.&quot;
+
+&quot;You didn&#39;t take the context into account,&quot; Louie replies calmly.
+
+&quot;Context? What context?&quot; says Jennifer. &quot;That was the first thing you said.&quot;
+
+&quot;Nobody asked you, Jennifer!&quot; Louie snaps.
+
+&quot;Nobody asked for your input either,&quot; says Jennifer.
+
+//&quot;Jennifer needs to get her ego in check,&quot; says Louie. &quot;She&#39;s not the boss of any of us. She&#39;s not a judge. We let her speak for the tribe one time on the first day, for a decision we were all in agreement on!&quot;//
+
+&quot;We&#39;re forgetting the important thing here,&quot; says Rhett. &quot;When Rocky was here, he caused more needless frustration and agitation than anyone actually on this tribe. If Ochora doesn&#39;t make the right decision and vote him out, we need to band together and clean up their mess.&quot;
+
+&quot;I think that&#39;s a good short-term goal,&quot; says Denine. &quot;If we get the opportunity to take him out, we should have a truce until that can happen.&quot;
+
+&quot;I don&#39;t like the idea that we need a truce,&quot; Jennifer replies. &quot;Aren&#39;t we a team?&quot;
+
+&quot;Personally, I don&#39;t feel any team spirit,&quot; says Louie.
+
+&quot;That doesn&#39;t matter,&quot; says Rhett. &quot;We just need to focus on making sure nobody on the other tribes can have the game handed to them on a silver platter!&quot;
+
+//&quot;Yes, we&#39;ve established that Rocky sucks, it helps me get to sleep every night,&quot; says Denine. &quot;But saying he&#39;s done more bad than anyone here combined? Rhett&#39;s a mental case, now. Just look at who we&#39;re dealing with to see how untrue that is.&quot;//
+
+$q[**Quibas**]
+
+Paula and Monty are sitting together in the shelter.
+
+&quot;I&#39;ve been stewing on something for a little while,&quot; says Paula. &quot;I want to tell you and only you because I think you&#39;ll... be cool with it in a way nobody else really can be.&quot;
+
+&quot;Go on,&quot; says Monty.
+
+&quot;You aren&#39;t the only person here that I feel close to,&quot; Paula admits.
+
+&quot;Do you have feelings for Vadsy?&quot; Monty asks.
+
+&quot;What? No, no I don&#39;t!&quot; Paula protests.
+
+&quot;I know young love when I see it,&quot; says Monty. &quot;You ain&#39;t head over heels crazy, but he&#39;s lit a spark in-&quot;
+
+&quot;No, he hasn&#39;t, moving on!&quot;
+
+//&quot;It&#39;s been long enough, in game terms, that I can trust Monty with knowing more about me,&quot; Paula admits. &quot;Particularly, the fact that I&#39;m friends with Buddy from outside the game. I told him that I know he can rely on Buddy the same way I can, if he ever needs it.&quot;//
+
+&quot;That&#39;s not against the rules, is it?&quot; Monty asks.
+
+&quot;We didn&#39;t plan this,&quot; Paula replies, &quot;but it&#39;s an opportunity I&#39;m not going to pass up. And you&#39;ve been such a good friend, and I know you won&#39;t use this against me.&quot;
+
+&quot;I would never sell you out,&quot; says Monty, before spitting on the ground.
+
+&quot;That&#39;s why you need to promise me to not tell anyone else,&quot; says Paula. &quot;I beg of you. We both know Jackie and Khall can&#39;t be trusted, and if Vaclav finds out then he&#39;ll have power over not only me, but also you and Buddy.&quot;
+
+&quot;I promise I won&#39;t tell anyone that you&#39;re friends with him,&quot; Monty replies.
+
+//&quot;I thank Paula for tellin&#39; me,&quot; says Monty. &quot;It shows she&#39;s not trying to use me. I knew she was an honest girl.&quot;//
+
+Meanwhile, Vaclav is talking to Khall.
+
+&quot;Are you worried about what will happen today?&quot; Vaclav asks.
+
+&quot;I am,&quot; says Khall. &quot;The new latrine we got... it rubs me the wrong way. It&#39;s like there&#39;s something inside waiting to come out.&quot;
+
+&quot;Out of the latrine? What could possibly-&quot;
+
+&quot;I don&#39;t know, but there&#39;s something about dark circular holes,&quot; Khall explains. &quot;They give me the creeps. I don&#39;t like not being able to see what&#39;s at the other end of something.
+
+Vaclav stares blankly at Khall&#39;s face, which is still completely obscured by a shadow cast by his hood. &quot;Really.&quot;
+
+&quot;I think we need to take turns watching it to make sure no reality warpers use it as a gateway to this dimension.&quot; Khall sighs. &quot;Especially not conventionally attractive young men with colour-coordinated outfits. I&#39;ve had my fair share of those already, and I know this season is supposed to be more grounded in realism.&quot;
+
+&quot;I was talking about the swap!&quot; Vaclav shouts. &quot;Are you not afraid that we&#39;re going to lose this tribe or the rewards?&quot;
+
+Khall nods. &quot;You&#39;re the only other one I trust to keep watch on the latrine. One of us needs to be here or bad things will happen!&quot;
+
+&quot;Stop talking about the latrine!&quot; Vaclav goes slightly pale. &quot;I&#39;ve worked really, **really** hard to keep this group together. I think my position is okay. I don&#39;t want to be at the bottom. And if the people I&#39;ve known for over a week can&#39;t be trusted, then anyone I&#39;ve only seen for a few minutes at most outside challenges... they definitely can&#39;t be!&quot;
+
+//&quot;This is the anxiety I&#39;m worried about with him,&quot; says Khall. &quot;It&#39;s smart to be aware of your surroundings, but he&#39;s trying to invent things for him to see. He is the only one worried as much as he is, and it doesn&#39;t look good on him.&quot;//
+
+**Reward Challenge**
+
+As the tribes coalesce in the challenge area, Buddy has a quick confessional saying that he&#39;s ready for a shake-up. He says it would be good to be around new people that he can start fresh with, and even better to maybe be able to actually work together with Paula.
+Vincent tells the tribes that Quibas&#39;s secret advantage from the previous challenge is that they are not going to be dissolved. He says the tribe with the worse challenge history will be dissolved, and that happens to be $o[Ochora].
+Denine asks if Ochora will be divided between the two remaining tribes, and is told no, that both tribes will completely swap.
+
+Vincent reveals two platforms, each with seven buckets and a rope attached. One platform is labeled $q[Quibas], and one is labeled $c[Chalpe]. He instructs the non-dissolved tribes to stand underneath the bucket on their tribe&#39;s platform and grab a hold of the rope. He then tells the four members of Ochora to pick one of the four vacant buckets.
+Candace and Ashleia go to the Quibas side, and Jarrett and Rocky go to the Chalpe side.
+
+$v[&quot;In these buckets are water that is coloured either indigo or light pink. If you get covered in indigo water, you will go to Quibas. If you get covered in light pink water, you will go to Chalpe. Quibas side, when I say pull, pull your rope. Three, two, one, //pull!//&quot;]
+
+(colour: blue + blue + white)[//Splash!//]
+
+$q[Jackie, Khall, Monty, and Paula remain on the Quibas tribe.]
+$c[Ashleia, Candace, and Vaclav will be heading to Chalpe.]
+
+Vincent turns to the Chalpe side. $v[&quot;Old Chalpe, as well as Jarrett and Rocky. Three of you will go to Quibas, while four of you will go to Chalpe. Three, two, one, //pull!//&quot;]
+
+(colour: blue + blue + white)[//Splash!//]
+
+$q[Denine, Jennifer, and Rocky will be heading to Quibas.]
+$c[Buddy, Louie, and Rhett remain on Chalpe, and Jarrett will join them.]
+
+$v[&quot;Since Ochora did not have anything but a tarp to their name, I will be taking it back, and no rewards are being moved. You all can head out.&quot;]
+
+**Day 12, After the Swap**
+$q[**Quibas**]
+
+Jackie, Khall, Monty, and Paula arrive back at camp. They stop and turn around, watching Denine, Jennifer, and Rocky follow them into the clearing.
+
+&quot;You&#39;re part of a winning tribe now,&quot; says Jackie. &quot;We have, like, the best record, and we&#39;re hoping you three can help us out with that. But I do NOT have high hopes.&quot;
+
+&quot;Shut up, Jackie,&quot; says Paula. &quot;Make yourselves comfortable, guys.&quot;
+
+&quot;Comfortable? In this dump?&quot; Rocky crosses his arms.
+
+&quot;Shut up, Rocky,&quot; says Jennifer.
+
+&quot;He&#39;s right, though,&quot; Denine adds.
+
+//&quot;Let&#39;s see, I lost Louie, so that sucks,&quot; says Denine. &quot;I lost Rhett, too, in case he ever decided to stop being a moron. And now I&#39;m in the minority with fucking Rocky. Shoot me now.&quot;//
+
+&quot;Do you two girls have any history we should be knowin&#39; about?&quot; Monty asks, looking at Jennifer and Denine.
+
+&quot;I hope not,&quot; says Jennifer. &quot;She&#39;s alright.&quot;
+
+&quot;Jennifer&#39;s okay,&quot; says Denine.
+
+Both show their displeasure at the other&#39;s half-hearted answer.
+
+&quot;Off to a great start,&quot; Khall says in monotone.
+
+&quot;It will be a great start if you guys are fun to be around,&quot; says Rocky.
+
+&quot;You won&#39;t like his definition of fun,&quot; says Jennifer.
+
+Rocky smirks. &quot;I never said it would be fun for the rest of you.&quot;
+
+//&quot;So the three new people are coming in with some baggage, which is great news for us,&quot; says Paula. &quot;As much as Jackie&#39;s been a pain in the neck, I know better than to be petty when we barely have the numbers. Let them not get along, and our four can just pressure them into turning on each other.&quot;//
+
+$c[**Chalpe**]
+
+Rhett leads the new members of the tribe – Ashleia, Candace, Jarrett, and Vaclav – to the Chalpe site, since Buddy and Louie refused to let each other do it.
+
+&quot;If you have any questions, just ask,&quot; says Rhett. &quot;It doesn&#39;t matter what happened before, you have a clean slate here. Welcome to Chalpe.&quot;
+
+&quot;I find that hard to believe,&quot; says Vaclav.
+
+&quot;Are you trying to start something?&quot; Rhett asks.
+
+&quot;No, not at all! I just have every right to be wary,&quot; Vaclav explains. &quot;I&#39;m the only one here from my own tribe, all of the rest of you have two people you&#39;re familiar with. The kidnapping twist means you don&#39;t need me as a swing vote. I don&#39;t like my new position here, is that fair for me to say?&quot;
+
+&quot;It might not have been the appropriate time,&quot; says Ashleia. &quot;He&#39;s trying to be, like, a gracious host. Which is more than I can say for the others.&quot;
+
+&quot;And a good afternoon to you too.&quot; Louie glares.
+
+//&quot;I was hoping that I didn&#39;t end up somewhere dysfunctional again,&quot; says Jarrett. &quot;Though between having to deal with Louie and Buddy&#39;s fighting, and Vaclav&#39;s playing the victim, I have my work cut out for me.&quot;//
+
+&quot;Anyways... it&#39;s nice to meet you guys!&quot; Buddy smiles warmly. &quot;I&#39;m Buddy, this is Rhett, and the one who&#39;s... already asleep it seems is Louie.&quot; He extends his hand.
+
+Candace takes his hand and shakes it firmly. &quot;Candace. And that&#39;s Ashleia and Jarrett.&quot;
+
+Buddy looks over at Vaclav, expecting an answer.
+
+Vaclav nods and says his name quietly.
+
+&quot;There&#39;s really nothing to be awkward over,&quot; says Buddy, letting go of Candace&#39;s hand. &quot;You have a full day to get to know us, after all.&quot;
+
+//&quot;I just want to make a good first impression on the newcomers, since now there are more of them than of us,&quot; explains Buddy. &quot;Which is great, honestly, if they can use those numbers to get rid of Louie. I think voting out Lisa emboldened him somehow, which is absurd because I did that. I&#39;m willing to give Vaclav some adjustment time to see that he&#39;s not the obvious target.&quot;//
+
+&lt;span class=&#39;newday&#39;&gt;[[Day 13&lt;-Read Day 13]]&lt;/span&gt;
+</tw-passagedata><tw-passagedata pid="15" name="Day 13" tags="" position="791,620" size="100,100">$c[**Chalpe**]
+
+The five males of the tribe are sitting around the fire. Jarrett is stroking his chin while talking to Vaclav, while Buddy, Louie, and Rhett are mostly just listening.
+
+&quot;You know those guys better than all of us,&quot; says Jarrett. &quot;But now you&#39;re on our tribe so that means they&#39;re the enemy. None of us know anything about any of them.&quot;
+
+Buddy winces. Rhett sees this out of the corner of his eye but doesn&#39;t react.
+
+&quot;So why should I just give you all I know?&quot; Vaclav replies. &quot;Seems to me like you just want to use me for information.&quot;
+
+&quot;It&#39;s information we&#39;ll find out eventually, anyways,&quot; says Jarrett. &quot;But you guys were really strong once you ditched the dead weight.&quot;
+
+&quot;There won&#39;t be two swaps,&quot; says Buddy. &quot;The next time we&#39;ll be sharing a camp with Quibas is at the merge, and then there&#39;s no teams.&quot;
+
+&quot;You want me to tell you guys how to use their abilities?&quot; Vaclav asks.
+
+&quot;Why not?&quot; says Buddy.
+
+//&quot;I would like to know what Vaclav knows about the other tribe,&quot; says Buddy, &quot;because there&#39;s some things that Paula knows better than to tell me. There&#39;s no more Ochora to team up against, we have to either beat them or we lose.&quot;//
+
+&quot;To be perfectly honest... I don&#39;t really know.&quot; Vaclav clasps his hands together. &quot;If something is going to bring them down, it might be internal. They don&#39;t really get along.&quot;
+
+&quot;Then let&#39;s make sure we don&#39;t have those problems ourselves,&quot; says Jarrett. &quot;That means you.&quot; He looks over at Buddy and Louie. &quot;It doesn&#39;t matter what happened before we got here. Circumstances are different now, the least you two can do is be civilized.&quot;
+
+&quot;Or don&#39;t interact with each other, if that&#39;s what it takes,&quot; adds Rhett.
+
+&quot;You don&#39;t have a lot of faith in them, do you?&quot; Vaclav asks.
+
+&quot;You need to have been here,&quot; says Rhett.
+
+&quot;I hope we can put it aside.&quot; Buddy looks over at Louie. &quot;Being angry all the time is exhausting.&quot;
+
+&quot;Yeah, I&#39;m tired of it too,&quot; says Louie. &quot;Just don&#39;t do anything selfish and we&#39;ll be fine.&quot;
+
+&quot;I guess that&#39;s the best I&#39;m going to get out of you,&quot; Buddy mutters.
+
+//&quot;I don&#39;t play games with people. I tell them exactly what I think of them,&quot; says Louie. &quot;And if that&#39;s a problem for Buddy, or Rhett, or any of these new guys, I don&#39;t care. And if I can&#39;t get rid of someone who gets in my way, I will make their life hell.&quot;//
+
+&quot;Maybe I should give you guys a minute,&quot; says Vaclav. &quot;I have all I need.&quot; He gets up and walks away from the others.
+
+After waiting a minute, Jarrett speaks up. &quot;I&#39;m serious about you needing to put the past in the past,&quot; he says.
+
+Louie rolls his eyes. &quot;I&#39;m sorry, are we supposed to &#39;try harder&#39; or something?&quot;
+
+&quot;More like, &#39;keep your damn mouth shut&#39;,&quot; Jarrett snaps. &quot;I&#39;m not going to be on a tribe of losers again. The girls are fine with me, and I already don&#39;t like the look of Vaclav. If we lose, we take him out.&quot;
+
+&quot;You sure he isn&#39;t the reason his tribe was winning so much?&quot; Rhett asks. &quot;We shouldn&#39;t vote out a strong player. We need to win challenges so Rocky&#39;s tribe can not win challenges.&quot;
+
+&quot;I don&#39;t think so,&quot; says Jarrett. &quot;Physical, maybe, but really timid. If we&#39;re counting on him to win something for all of us, he&#39;ll fold like a wet paper towel.&quot;
+
+//&quot;It makes sense that Jarrett doesn&#39;t want us to consider voting out one of the women,&quot; says Rhett. &quot;They&#39;re from his tribe, they&#39;re numbers in his corner. But they blew two opportunities to cut out the cancer, and nobody should get away with inflicting that on the rest of us.&quot;//
+
+$q[**Quibas**]
+
+Paula is standing near where Monty, Jackie, and Khall are sitting. She is watching Rocky trying to repair the shelter.
+
+&quot;Why did you guys use so many leaves and stuff?&quot; Rocky mutters to himself. &quot;This weaving business is frustrating. We all got tarps, didn&#39;t we?&quot;
+
+Paula shakes her head.
+
+//&quot;I thought the whole point of getting a tarp was that we wouldn&#39;t have to put up with this leaf weaving business,&quot; Rocky explains. &quot;Jarrett and I didn&#39;t do it, and we didn&#39;t get soaked at night. It all feels redundant, but since Denine and Jennifer already don&#39;t like me, I should try and earn some points with the other guys.&quot;//
+
+After snapping one too many leaves, Rocky tosses his shoddy handiwork into the firepit.
+
+Paula looks back to her other tribemates. &quot;I think we should make sure we&#39;re on the same page.&quot;
+
+&quot;What do you mean?&quot; Monty asks.
+
+&quot;The four of us, we all know each other,&quot; says Paula. &quot;I know we don&#39;t exactly get along, but sometimes it&#39;s the devil you know versus the devil you don&#39;t. We need to keep each other safe.&quot;
+
+Monty and Khall nod, while Jackie has no expression.
+
+&quot;There are four of us, and if we can&#39;t get Vaclav back then we&#39;re deadlocked,&quot; Paula explains. &quot;That&#39;s a tempting target for the other three to maybe lower our numbers.&quot;
+
+&quot;So we should make sure those three don&#39;t like each other,&quot; says Jackie. &quot;Then they won&#39;t team up.&quot;
+
+&quot;We could also ask someone to side with us,&quot; says Khall. &quot;You don&#39;t just vote someone out because you don&#39;t like them.&quot;
+
+//&quot;I didn&#39;t want to vote anyone out before,&quot; says Khall. &quot;Everyone is just that nice. We have a chance to all keep each other, and I think we should try and do that.&quot;//
+
+&quot;From what I&#39;ve seen of Rocky, I&#39;m not sure we should really associate with him unless we absolutely have to,&quot; says Paula.
+
+&quot;So that leaves one of the girls,&quot; says Jackie. &quot;That&#39;s, like, great because I work better with girls anyways.&quot;
+
+&quot;I don&#39;t think you do,&quot; Paula replies.
+
+&quot;We&#39;ll see about that,&quot; says Jackie.
+
+//&quot;Okay, so I&#39;m going to just let Paula and Monty think what they want to think for now,&quot; says Jackie. &quot;But I know when things start getting difficult, they&#39;re going to have to come to me and play by my rules. We have four, they have four, so if they want to keep that four, they need to listen to me.&quot;//
+
+$c[**Chalpe**]
+
+Ashleia is standing by the well, taking a small amount of water to splash her face with.
+
+&quot;You might not want to do that,&quot; says Buddy, standing nearby. &quot;That&#39;s our only source of water.&quot;
+
+&quot;Oh, sorry,&quot; says Ashleia sheepishly. &quot;I just needed to freshen up a little, I guess.&quot;
+
+Buddy inhales, preparing to say something, then stops himself. &quot;Okay, I understand. Sorry, Ashleia. Can I tell you something?&quot;
+
+&quot;I mean, go ahead,&quot; says Ashleia.
+
+&quot;Okay, so the guys and I were just talking.&quot; Buddy crosses his eyes. &quot;Jarrett says he wants us to agree to vote out Vaclav.&quot;
+
+&quot;Well, that&#39;s fine with me,&quot; she says. &quot;I just wish he told me first.&quot;
+
+&quot;Were the two of you close, when you were on Ochora?&quot; Buddy asks.
+
+Ashleia nods. &quot;We worked together, at first. But then he went behind our backs to vote out Saul.&quot;
+
+&quot;So that&#39;s who I have to thank for Rhett&#39;s recent obsession? Good to know.&quot;
+
+//&quot;Am I happy with Jarrett for how he, like, played around last time? No, I&#39;m not,&quot; says Ashleia. &quot;But this is just, like, exactly why I don&#39;t like working with men like that, you know? I should remind him that I&#39;m capable, too.&quot;//
+
+&quot;You don&#39;t want to get back at him, do you?&quot; Buddy asks.
+
+Ashleia shakes her head. &quot;I&#39;m afraid of being next if I do that. I don&#39;t want to just follow his lead, though...&quot;
+
+&quot;Then who do you want to vote out?&quot;
+
+&quot;Can we, like, vote out Louie, maybe?&quot; Ashleia curls a lock of her hair in her fingers. &quot;I dunno, he&#39;s-&quot;
+
+&quot;A smug little asshat who has it coming?&quot; Buddy&#39;s eyes light up as he says this.
+
+&quot;...kind of overweight.&quot;
+
+//&quot;Hell yes! It&#39;s only a matter of time until he starts up his irritating and not clever remarks again, anyways,&quot; says Buddy. &quot;Ashleia just met the damn guy and she&#39;s already on board. Now it&#39;s time for me to get to work on making this happen.&quot;//
+
+Meanwhile, Louie is lying in the shelter, with his eyes closed. Vaclav is sitting next to him, twiddling his thumbs.
+
+&quot;I feel like I was doing better on my old tribe, even if they might have been plotting to backdoor me,&quot; admits Vaclav. &quot;So this swap is frustrating for me. Can I even make a good impression when the odds were against me as soon as I picked up a pink buff?&quot;
+
+&quot;You grow to hate that little piece of fabric,&quot; Louie says with a grunt.
+
+&quot;The people who I thought kind of understood me,&quot; says Vaclav, &quot;aren&#39;t even here. I could go to the Town Square but that will just isolate me further. Either way I&#39;m alone and vulnerable.&quot;
+
+&quot;Yeah, the only one here who wasn&#39;t terrible is on your old tribe now,&quot; says Louie. &quot;She needs to make it out alive. If I&#39;m stuck with all these jerkoffs at the merge without her, it won&#39;t be pretty.&quot;
+
+&quot;I&#39;ll be here to talk to,&quot; says Vaclav, &quot;it&#39;s not hopeless without her.&quot;
+
+Louie makes a nondescript groan.
+
+//&quot;Louie doesn&#39;t like anyone here,&quot; says Vaclav, &quot;and everyone else probably has it out for me already because this swap ruined me. So, we kind of have a common outlook. He&#39;s kind of mean, but I can&#39;t really be picky.&quot; He sighs. &quot;An immunity idol would be great right about now.&quot;//
+
+$q[**Quibas**]
+
+Jennifer and Denine are standing by a river that runs near the Quibas camp, using makeshift spears to try and catch some fish.
+
+&quot;I was definitely hoping that we would still have the numbers after a swap,&quot; says Jennifer.
+
+&quot;It&#39;s a bummer, yeah.&quot; Denine stabs at the river, missing everything. &quot;It&#39;s not over, though. We got a while.&quot;
+
+&quot;Have you thought about what we&#39;re going to do yet?&quot; Jennifer asks.
+
+&quot;Not really.&quot;
+
+//&quot;When we first got here, we didn&#39;t jump into making alliances right away,&quot; says Denine. &quot;Well, at least I didn&#39;t. I don&#39;t see how right now is any different. I&#39;ll make my decision on where I stand when the time is right; I&#39;m not going to put myself in a box.&quot;//
+
+&quot;We know Rocky, and we know that he&#39;s a jackass,&quot; says Jennifer. &quot;So, unless we&#39;re the pinnacle of strength then he&#39;s a lost cause.&quot;
+
+&quot;Mhm.&quot; Denine keeps focused on the river.
+
+&quot;But there are four people on Quibas, and they haven&#39;t lost anyone since day 3,&quot; Jennifer continues. &quot;I think they might be ready to crack. I think Buddy said he was the swing vote, which means that they either have someone on the outs, or they&#39;re split right down the middle.&quot;
+
+Denine doesn&#39;t say anything.
+
+&quot;They could also not be as tight as it seems. We can try to get in there and claim to be united against Rocky,&quot; says Jennifer, &quot;but then make sure they vent all our problems to us. We can drive that wedge between them until they trust us more than each other. That right there is the ballgame.&quot;
+
+&quot;So how are you going to do that?&quot; Denine asks. &quot;Sounds like you&#39;ve got it all figured out.&quot;
+
+&quot;I need you with me one hundred percent,&quot; Jennifer replies. &quot;We need to tell them we can throw Rocky under the bus. From there, we each pick a side and make sure there&#39;s a rivalry.&quot;
+
+&quot;Whatever works,&quot; says Denine.
+
+&quot;Are you even listening to me?&quot; Jennifer asks, a little annoyed.
+
+&quot;Good idea,&quot; says Denine.
+
+Jennifer slams the pointed end of her spear into the sand. &quot;Hey, Denine, I&#39;m trying to help us out here. The least you could do is listen to me and not just bob your head. I am not going to do all the work.&quot;
+
+&quot;So why even bother asking for my input?&quot; Denine asks. &quot;Sounds like you already know what you want us to do.&quot;
+
+&quot;Well, is there anything wrong with what I&#39;m saying?&quot;
+
+&quot;Gee, I just don&#39;t know, Jennifer!&quot;
+
+//&quot;Gah! I don&#39;t know what you want from me, Jen!&quot; Denine crosses her arms. &quot;You have your own agenda, obviously. I&#39;m not going to question what&#39;s best for her, but she shouldn&#39;t pretend it&#39;s OUR plan. It&#39;s hers, and I&#39;ll treat it as such.&quot;//
+
+After having left Denine to fish by herself, Jennifer gets a hold of Jackie on a narrow trail.
+
+&quot;I think you should know,&quot; says Jennifer, &quot;that you&#39;re good with me. I&#39;m keeping watch on Denine and Rocky to make sure they&#39;re not coming for you.&quot;
+
+&quot;Thanks,&quot; says Jackie. &quot;I&#39;ll look out for you too. If you have my back, I have yours.&quot;
+
+&quot;We&#39;re cool,&quot; says Jennifer.
+
+&quot;I know I am,&quot; says Jackie. &quot;You know. We should be an alliance. Because right now, I just get a bad feeling about the others. I need someone solid.&quot;
+
+&quot;Same here, I just got separated from my rock,&quot; explains Jennifer. &quot;I&#39;m not going to just let myself be at the bottom.&quot;
+
+//&quot;I gave Denine a fair shot to see if we could work something out,&quot; Jennifer explains, &quot;but it&#39;s clear she&#39;s not interested. And I need a backup plan if the original Quibas people don&#39;t break. If you don&#39;t have your eye on the prize, then it will slip out of your fingers.&quot;//
+
+$c[**Chalpe**]
+
+Ashleia, Candace, and Jarrett are walking in the woods around camp, looking for dry brush.
+
+&quot;There&#39;s no question, we have the others right where we want them,&quot; says Jarrett. &quot;The old guard is voting Vaclav out with us. Buddy and Louie don&#39;t like each other, so as soon as Vaclav goes, we&#39;re breaking that truce. Let them at each other&#39;s throats.&quot;
+
+&quot;So, we just pick off the other guys,&quot; says Candace.
+
+&quot;That&#39;s the plan,&quot; Jarrett replies. &quot;We have no reason to trust them.&quot;
+
+&quot;And you&#39;re not just pulling our legs like last time?&quot; Candace asks.
+
+&quot;I have no reason to do anything like that,&quot; says Jarrett. &quot;Saul was the outsider last time. This time it&#39;s Vaclav. That&#39;s the way we&#39;re voting.&quot;
+
+&quot;Well if that&#39;s your final answer,&quot; says Candace, &quot;then I&#39;ll take you at your word.&quot;
+
+//&quot;So, Jarrett wants Vaclav out,&quot; says Candace. &quot;That&#39;s fair. But if he says anything else after,&quot; she reaches into her pocket, &quot;then I&#39;m not listening.&quot; She pulls out a small bracelet made of wooden beads from her pocket. &quot;Idols don&#39;t tell lies.&quot;//
+
+&quot;Should we, like, talk to the guys to make sure this happens?&quot; Ashleia asks.
+
+&quot;Already done,&quot; says Jarrett. &quot;Don&#39;t worry. It&#39;s not like he&#39;s going around helping matters, I only really see him with Louie.&quot;
+
+&quot;You aren&#39;t worried that Louie might try to change things?&quot;
+
+&quot;If he does, then he&#39;s just giving us a fourth ally in Buddy.&quot; Jarrett looks Ashleia in the eyes. &quot;We&#39;ll get out of this. I&#39;ve got this, you know I wouldn&#39;t put you in any danger.&quot;
+
+//&quot;Ashleia is my go-to, she&#39;s still solid with me,&quot; explains Jarrett. &quot;I need to make sure she knows that. I would definitely go to bat for her if I heard her name come up, but right now the only name out there is the one I want to be out there. For everyone else, this is a test of whether I can trust them down the road, and that includes Candace.&quot;//
+
+$q[**Quibas**]
+
+Denine and Monty are sitting together. Monty is chewing on a blade of grass, while Denine uneasily twiddles her thumbs.
+
+&quot;The nerve of people like Jennifer,&quot; says Denine. &quot;She thinks she has me for granted because we spent more than a week together. That makes me see everything that&#39;s wrong with them, more than anything. And her problem is all she talks about is game. I&#39;m not here for that.&quot;
+
+Monty nods. &quot;You&#39;re right. It&#39;s why I don&#39;t get on with Jackie. Some people just think they&#39;re above everyone else. We&#39;re all human, and sometimes you have people like them who say it&#39;s not true, and that they&#39;re entitled to more than you just because that&#39;s the way they are.&quot; He spits into the dirt, and Denine recoils.
+
+&quot;That&#39;s not why I&#39;m here. I love the whole experience,&quot; Denine adds. &quot;I&#39;m not all about numbers, this isn&#39;t math class.&quot;
+
+//&quot;I didn&#39;t think anyone here would see things the same way I do,&quot; says Monty. &quot;I understand what Denise is talking about, just wanting to lay back a little. It&#39;s a once in a lifetime thing, so don&#39;t let the stress get you down.&quot;//
+
+&quot;I just want to close my eyes and shut everything out,&quot; Denine admits. &quot;Sometimes it&#39;s too much.&quot;
+
+&quot;It&#39;s not good to hide yourself away from the world,&quot; says Monty.
+
+&quot;I know...&quot; Denine sighs. &quot;I&#39;m not trying to. But I&#39;m overwhelmed. Everything&#39;s moving too fast for my liking.&quot;
+
+&quot;Yeah, I get you. Sometimes these people are too uptight.&quot; Monty belches loudly.
+
+&quot;Gross,&quot; Denine mutters.
+
+&quot;What do you say about working with me and Paula?&quot; Monty asks.
+
+&quot;I&#39;m all for that,&quot; says Denine. &quot;We&#39;re cool.&quot;
+
+Monty smiles.
+
+//&quot;Heck no, he&#39;s not a real ally,&quot; says Denine. &quot;He&#39;s boorish, he&#39;s disgusting, he just didn&#39;t get what I was saying at all. I don&#39;t really care if this puts me back to square one. I have standards.&quot;//
+
+Paula is looking around in the bushes and trees, with Khall by her side.
+
+&quot;Now, I know we&#39;ve made up and everything,&quot; says Paula, &quot;but what I&#39;m doing right now is none of Jackie&#39;s business and none of Monty&#39;s business.&quot;
+
+&quot;Understood,&quot; says Khall. &quot;This is just for you, right?&quot;
+
+&quot;If you touch it first, I promise it&#39;s yours,&quot; Paula replies.
+
+//&quot;I need to make sure the two sides of our little group are repaired, so I decided to do a little trust building with Khall,&quot; Paula explains. &quot;He&#39;s sweet, and we get along. And I really don&#39;t mind if he finds the idol since I think he&#39;d use it correctly.&quot;//
+
+&quot;So,&quot; says Khall, &quot;will it just be the four of us?&quot;
+
+&quot;I hope it doesn&#39;t come to that,&quot; says Paula. &quot;I&#39;m still thinking. We should maybe be able to get Jennifer or Denine to our side, then we have the majority.&quot;
+
+&quot;What about Rocky?&quot; Khall asks.
+
+&quot;He&#39;s kind of a tool,&quot; Paula explains, &quot;and I think he&#39;s at the top of the girls&#39; lists. If for some reason Jackie decides to be an idiot, we&#39;re most likely to have the votes if we go against him.&quot;
+
+&quot;I don&#39;t think Jackie would do something stupid,&quot; says Khall. &quot;She&#39;s my friend.&quot;
+
+&quot;That makes one of us.&quot; Paula reaches into a leafy bush and pulls out a rock. &quot;I don&#39;t think it&#39;s impossible for her to think &#39;I&#39;m going to make a big move&#39; and backstab us. It would definitely put her on the bottom though. I&#39;m tired of her attitude.&quot;
+
+&quot;I&#39;m tired of you guys not being friends,&quot; Khall replies.
+
+Paula comes out of the bush empty-handed. &quot;That&#39;s too bad. She&#39;s made her bed. She&#39;s just really lucky that we need her right now.&quot;
+
+&lt;span class=&#39;newday&#39;&gt;[[Day 14&lt;-Read Day 14]]&lt;/span&gt;
+</tw-passagedata><tw-passagedata pid="16" name="Day 14" tags="" position="918,620" size="100,100">**Day 14
+Immunity Challenge**
+
+The two tribes arrive at the challenge beach to see fourteen poles arranged in two rows, each with a pair of rungs sticking out of the sides. Everyone is instructed to get onto a pole, with their feet on the rungs and their arms wrapped around the pole. If someone falls off their pole or touches the ground, they are out. First tribe to lose all of their members goes to tribal council. For each member remaining on the winning tribe, they receive three cups of beans.
+
+Within five minutes of starting, Vincent begins talking to the contestants.
+
+$v[&quot;Buddy, do you think you can do well at this challenge?&quot;]
+
+&quot;I think so,&quot; says Buddy. &quot;This isn’t the first time I&#39;ve been in this sort of situation.&quot;
+
+&quot;Yeah but last time you didn&#39;t have any clothes on,&quot; says Rocky.
+
+Denine does a spit take, and in her laughing fit she loses her grip and falls backwards.
+
+$v[&quot;Well, I guess Denine is out.&quot;]
+
+&quot;Thank god, now I don&#39;t have to be first out,&quot; says Louie. He jumps off.
+
+$v[&quot;Louie is down. Each tribe now has six. Jackie, how long do you think you can hold out?&quot;]
+
+&quot;All the way, I&#39;m winning this challenge,&quot; Jackie replies.
+
+$v[&quot;Rhett, what&#39;s your strategy here?&quot;]
+
+&quot;I don&#39;t have one.&quot;
+
+$v[&quot;Alright, then I&#39;ll be back later to see how you are doing.&quot;]
+
+$t[//5 Minutes In//]
+
+Jackie gets an idea, and tries to talk to the other tribe. &quot;Hey. Hey Vaclav.&quot;
+
+&quot;You can&#39;t make any deals with me, you can&#39;t give me anything I want,&quot; Vaclav replies.
+
+&quot;Throw the challenge.&quot;
+
+&quot;No!&quot;
+
+&quot;He ain&#39;t gonna listen to you, sweetheart,&quot; says Monty.
+
+&quot;I&#39;m not gonna listen to you either, Monty!&quot; Jackie snaps.
+
+$t[//10 Minutes In//]
+
+Candace is trembling on her pole.
+
+&quot;This is so stupid...&quot; she mutters to herself.
+
+&quot;You can do it, Candace,&quot; says Jarrett. &quot;Try meditating or something.&quot;
+
+&quot;I feel my legs are going numb,&quot; Candace replies. &quot;I can&#39;t zone out for more than ten seconds before the tingling sensation comes back.&quot;
+
+&quot;It doesn&#39;t hurt, does it?&quot; Jarrett asks.
+
+&quot;No, not yet,&quot; says Candace. She closes her eyes.
+
+Rocky smirks. &quot;You are getting veeeery sleepy...&quot; he says gently.
+
+&quot;Don&#39;t make me come over there,&quot; Jennifer snaps at him.
+
+All of a sudden, Ashleia loses her footing and falls off.
+
+$v[&quot;After ten minutes, Ashleia is down. Chalpe has five left.&quot;]
+
+&quot;You can do it,&quot; Ashleia says to her team before heading over to where Denine and Louie are watching.
+
+$t[//15 Minutes In//]
+
+$v[&quot;We are fifteen minutes into the challenge, and eleven players are going strong.&quot;]
+
+&quot;Not really,&quot; says Candace. &quot;I don&#39;t know if I can keep going.&quot;
+
+&quot;You&#39;re doing well so far,&quot; says Buddy.
+
+&quot;No, I&#39;m not!&quot; Candace snaps. &quot;I&#39;m going to fall!&quot;
+
+&quot;Then hurry up!&quot; Rocky yells.
+
+&quot;Shut up, Rocky! I... crap!&quot; Candace falls off her pole, somewhat sideways.
+
+$v[&quot;Candace is down! Quibas is advancing their lead.&quot;]
+
+&quot;Oh god, I think I twisted something,&quot; Candace moans.
+
+&quot;Are you okay! I&#39;ll help you!&quot; Khall jumps off his pole and races over to check on Candace.
+
+&quot;Are you kidding me! You don&#39;t even //know// her!&quot; Jackie yells at Khall.
+
+Jackie&#39;s sudden yelling startled Monty enough to make him twitch. He lost his grip and slid down the pole, feet slipping off the rungs and hitting the ground.
+
+$v[&quot;Khall is down, and so is Monty! We are tied up again!&quot;]
+
+$t[//25 Minutes In//]
+
+$v[&quot;It&#39;s almost been half an hour,&quot;] says Vincent, $v[&quot;and we have four players remaining on each side. On Quibas we have Jackie, Jennifer, Paula, and Rocky. On Chalpe we have Buddy, Jarrett, Rhett, and Vaclav.&quot;]
+
+Rocky is knocking his knees gently against the side of his pole.
+
+&quot;Getting a little antsy?&quot; Buddy asks. &quot;Why don&#39;t you try and stretch for a bit?&quot;
+
+&quot;Very funny,&quot; says Rocky. &quot;I&#39;m not dropping.&quot;
+
+&quot;You look bored standing up here,&quot; Buddy adds.
+
+&quot;Well, you look dumb!&quot; Rocky snaps.
+
+&quot;Is that the best you&#39;ve got?&quot;
+
+Rocky narrows his eyes and tightens his grip on the pole.
+
+$t[//30 Minutes In//]
+
+$v[&quot;It&#39;s been thirty minutes, and time for the next half of the challenge. You have ten seconds to wrap your legs around the pole. After that ten seconds, putting either foot back on the rungs means you&#39;re out. The countdown starts now.&quot;]
+
+&quot;Oh damn,&quot; says Denine.
+
+Most of the remaining players begin to lift their legs, but Jackie has completely lost feeling in hers and falls backwards.
+
+Everyone else struggles to get into position, but soon the grace period is over.
+
+$v[&quot;Jackie has fallen so she&#39;s out, and... Rhett still has one foot on the rungs. He&#39;s out.&quot;]
+
+&quot;That wasn&#39;t ten seconds!&quot; Rhett complains.
+
+$v[&quot;Yes, yes it was.&quot;]
+
+Rhett mutters a swear while stepping down.
+
+$t[//In the end...//]
+
+After 40 minutes, Paula falls off her pole.
+
+Five minutes pass until Jarrett steps down, and Buddy falls not long after him.
+
+An hour after the beginning of the challenge, only Jennifer and Rocky remain for Quibas, and Vaclav for Chalpe.
+
+$v[&quot;All three of you have been up there for sixty minutes.&quot;]
+
+&quot;Hell yeah!&quot; Rocky shouts.
+
+$v[&quot;Can you do it for ninety minutes?&quot;]
+
+&quot;Hell yeah!&quot; Rocky shouts again.
+
+After eighty minutes, one more contestant falls off.
+
+$v[&quot;And Jennifer is down! We have one contestant left on each tribe, let&#39;s see how far they can last.&quot;]
+
+Rocky gasps. &quot;No, we don&#39;t! Look at his shoes!&quot;
+
+Vincent looks over to Vaclav&#39;s pole, and notices Vaclav&#39;s foot had slipped down and hit a rung.
+
+Vaclav looks down and realizes he had made a big mistake. &quot;Oh no... I&#39;m so sorry, guys.&quot;
+
+$v[&quot;Vaclav is disqualified, which means Rocky is the last one standing! Quibas wins immunity and three cups of beans!&quot;]
+
+The new Chalpe is told to pick someone from Quibas to kidnap, and Louie picks Denine.
+
+$c[**Chalpe**]
+
+//&quot;I really thought we had it there,&quot; says Rhett. &quot;We were doing so well. But somehow Rocky won, and his smug little grin means he&#39;s never going to let any of us forget this. One of us is going home, and it&#39;s all his fault.&quot;//
+
+Rhett is standing in a group with Jarrett, Candace, Buddy, and Ashleia.
+
+&quot;We have five votes here,&quot; says Jarrett. &quot;Buddy, Rhett, we can trust the two of you, right? Because I don&#39;t know what to think of Louie right now.&quot;
+
+&quot;Forget Louie,&quot; says Buddy. &quot;He was garbage today.&quot;
+
+&quot;Does that change our plans at all?&quot; Candace asks.
+
+Jarrett shakes his head. &quot;The plan still is Vaclav. Anyone can stand still, doesn&#39;t really show much for strength. And once they get Rocky out that disadvantage doesn&#39;t mean anything.&quot;
+
+&quot;Once they get Rocky out? What if they don&#39;t?&quot; Buddy asks.
+
+&quot;I think they will,&quot; says Ashleia. &quot;He was, like, really lucky. But now he has no allies over there.&quot;
+
+&quot;Right, and Vaclav has none here,&quot; says Jarrett. &quot;Louie&#39;s the one who got to kidnap someone, so she&#39;s probably protecting Louie instead.&quot;
+
+//&quot;We should have a stable group here, but I don&#39;t want to split the votes,&quot; Jarrett explains. &quot;There aren&#39;t enough of us for me to be comfortable doing that.&quot;//
+
+&quot;So, do we go and tell Louie he&#39;s safe?&quot; Rhett asks.
+
+&quot;Might help, but that might give him the impression that he&#39;s on the outs,&quot; says Jarrett.
+
+&quot;He IS on the outs,&quot; Buddy snaps. &quot;If anything, we&#39;re doing him a favour by not taking him out right now.&quot;
+
+&quot;It&#39;s not going to happen with Denine here,&quot; says Jarrett.
+
+Meanwhile, Vaclav is sitting in the shelter with Denine and Louie.
+
+&quot;I&#39;m beside myself right now,&quot; says Vaclav. &quot;They want me out, I know it! After I gave it my all today, it&#39;s worth nothing and they want me out. They all did, from the beginning!&quot;
+
+Denine glances at Louie. &quot;Is he always this... pathetic?&quot;
+
+&quot;I don&#39;t want to go home like this! I haven&#39;t even done anything!&quot;
+
+//&quot;I&#39;m not paranoid, I know what they&#39;re all thinking! They don&#39;t want me on their tribe, and that&#39;s been the case since I got there,&quot; says Vaclav. &quot;I&#39;m just screwed because they just want an easy target. It sucks! I don&#39;t deserve to go home!&quot;//
+
+&quot;You gotta help me out tonight!&quot; Vaclav asks. &quot;Please! There has to be something you can do.&quot;
+
+&quot;If it involves interacting with people, forget it,&quot; says Louie.
+
+Vaclav sighs, but harshly and shallowly because of how stressed he is. &quot;You don&#39;t even have to do that! Just watch them like I&#39;ve been doing! Do you see who&#39;s talking with whom? I know who the biggest threat here is, but because I&#39;m the target they won&#39;t do anything about it!&quot;
+
+&quot;Now you have my attention,&quot; says Denine. &quot;You want us to help you kick the tribe in the nards?&quot;
+
+&quot;The what!?&quot;
+
+//&quot;It all comes down to tribal councils,&quot; says Louie. &quot;It may look like I don&#39;t really give a shit, but that&#39;s because I put my energy where it matters, at the voting booth. And if Vaclav leaving puts me at risk then I&#39;ll make sure they know I&#39;m not having it.&quot;//
+
+A little later, Buddy is talking to Rhett when they run into Vaclav.
+
+&quot;Hey Vaclav, I have a pitch for you,&quot; says Buddy. &quot;So, the Ochora people are morons and want to vote you out.&quot;
+
+&quot;It&#39;s obvious, isn&#39;t it?&quot; says Vaclav.
+
+&quot;Well I&#39;m not up for that.&quot; Buddy crosses his arms. &quot;We&#39;re voting someone else.&quot;
+
+&quot;Please tell me you&#39;re voting Jarrett,&quot; says Vaclav.
+
+&quot;What? Of course not,&quot; says Buddy. &quot;I&#39;m putting Louie down. We have Ashleia, we just need you to tie it up.&quot;
+
+&quot;Ummmm, okay,&quot; says Vaclav, nodding. &quot;I just don&#39;t want to leave.&quot;
+
+&quot;You shouldn&#39;t,&quot; says Buddy. &quot;We&#39;re going to trim the fat.&quot;
+
+//&quot;Louie&#39;s kidnapping of Denine was totally expected, but ultimately useless,&quot; says Buddy. &quot;I hope they enjoy the next few hours of being miserable jerkoffs, because one of them won&#39;t be here tomorrow. He refused to bury the hatchet, so I&#39;ll bury HIM instead.&quot;//
+
+$v[**Tribal Council**]
+
+The new Chalpe tribe, and old Chalpe member Denine, walk into the tribal council building. They place their lit torches behind their seats.
+
+$v[&quot;Welcome back. Let&#39;s start with Rhett. What was it like to learn that not only was one tribe broken up, but all of you were shuffled around to different camps?&quot;]
+
+&quot;It&#39;s been tough,&quot; says Rhett. &quot;I felt like I was doing okay on this tribe before, and now there&#39;s more people to worry about and I don&#39;t feel as safe anymore.&quot;
+
+$v[&quot;Buddy, you were being targeted heavily last time, do you think this swap came at a good time?&quot;]
+
+&quot;I think it did, but it could have worked out better,&quot; says Buddy. &quot;The three that came here from Ochora are fairly close.&quot;
+
+&quot;But we&#39;re willing to work with you,&quot; says Jarrett. &quot;You&#39;re benefitting from this.&quot;
+
+&quot;For now,&quot; says Vaclav.
+
+$v[&quot;Vaclav, you have an opinion on this?&quot;]
+
+&quot;Yes, I really do,&quot; Vaclav says. &quot;Jarrett&#39;s alliance wants me out. I could tell it from the very beginning, they saw me as someone that wouldn&#39;t put up a fight. Well they&#39;re dead wrong! I&#39;m not going to give up!&quot;
+
+&quot;We didn&#39;t even say anything about you,&quot; says Jarrett. &quot;If you want to know why you&#39;re on the chopping block, it&#39;s because you&#39;re volatile.&quot;
+
+&quot;I&#39;m sorry for not being your little lap dog! I didn&#39;t //ask// to be in this position!&quot; Vaclav exclaims.
+
+$v[&quot;What position are you talking about?&quot;]
+
+&quot;I&#39;m the only one from my old tribe here,&quot; says Vaclav. &quot;So, when I came here, there was three and three! With the kidnapping they don&#39;t need a fourth as a swing vote, so that makes me expendable! You all know it! And if I didn&#39;t say anything at all I would be as good as gone.&quot;
+
+&quot;You&#39;re just making it worse for yourself, actually,&quot; says Jarrett.
+
+&quot;Okay both of you shut up,&quot; says Candace. &quot;I&#39;m getting a migraine.&quot;
+
+$v[&quot;Louie, what does Vaclav being targeted mean for you?&quot;]
+
+&quot;It means I&#39;m on a tribe full of dumbasses,&quot; says Louie, &quot;who think that they&#39;ve got the game all lined up. Guess what, not all of you can win.&quot;
+
+&quot;The hell does that mean?&quot; Buddy asks, crossing his arms. &quot;Actually, no, don&#39;t say anything.&quot;
+
+&quot;You&#39;d like that,&quot; says Denine, &quot;wouldn&#39;t you?&quot;
+
+&quot;Vincent, I&#39;m not interested in playing their little high school games,&quot; Louie explains. &quot;Jarrett and his new clique might think they&#39;re all that and a bag of chips, but there&#39;s only so long that can take you.&quot;
+
+Ashleia leans over to Jarrett. &quot;This kind of negativity is why we&#39;re voting him out,&quot; she whispers.
+
+&quot;Oh, I don&#39;t think so,&quot; whispers Jarrett. &quot;Louie&#39;s a goat.&quot;
+
+&quot;Your other goat won the challenge today,&quot; Ashleia replies. 
+
+&quot;Got something to share with the class?&quot; Denine asks, turning to look at Ashleia.
+
+&quot;I&#39;m, like, just saying that I&#39;m voting for Louie tonight,&quot; says Ashleia.
+
+&quot;Well I&#39;m, like, just saying, like,&quot; Denine replies mockingly, &quot;good luck with that.&quot;
+
+&quot;We&#39;ll see about that,&quot; says Buddy.
+
+$v[&quot;I think this is as good a time as ever to start the voting,&quot;] says Vincent. $v[&quot;Buddy, you are up first.&quot;]
+
+As Buddy stands up and walks to the voting booth, Jarrett looks over at Vaclav. &quot;You just dodged a serious bullet, you know.&quot;
+
+&quot;Don&#39;t have to tell me twice,&quot; Vaclav replies.
+
+...
+
+Jarrett reveals his vote for Louie. &quot;You&#39;re so delusional that it&#39;s almost endearing. But then I remember how useless you are.&quot;
+
+Louie reveals his vote for Jarrett. &quot;Well played, dumbass. Your days are numbered.&quot;
+
+...
+
+$votesarein
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+$v[&quot;Louie.&quot;]
+
+Louie pretends to gasp in horror.
+&lt;br&gt;
+&lt;br&gt;
+$v[&quot;Jarrett.&quot;]
+
+Jarrett rolls his eyes.
+&lt;br&gt;
+&lt;br&gt;
+$v[&quot;Louie. He leads with two.&quot;]
+
+Ashleia bows her head down, but looks up at the votes being shown.
+&lt;br&gt;
+&lt;br&gt;
+$v[&quot;Jarrett. We are tied.&quot;]
+
+&quot;This is getting exciting,&quot; says Denine.
+
+&quot;Easy for you to say,&quot; Louie snaps.
+
+$v[&quot;Next vote... Jarrett.&quot;]
+
+Vaclav adjusts his glasses.
+&lt;br&gt;
+&lt;br&gt;
+$v[&quot;Louie. We are tied with three votes each.&quot;]
+
+Candace takes a deep breath and brushes the hair out of her face.
+
+&quot;You good?&quot; Buddy asks.
+
+Candace nods quietly.
+
+$v[&quot;The next vote...&quot;]
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+$v[&quot;...is for Jarrett.&quot;]
+
+&quot;What&#39;s going ooooon?&quot; Ashleia mutters.
+
+Louie smirks.
+
+$v[&quot;Fifth $boot is **Jarrett**. You need to bring me your torch.&quot;]
+
+&quot;I appreciate it,&quot; says Jarrett sarcastically, as he gets up and walks towards his torch.
+
+Vaclav sighs, and clutches his chest. Denine and Louie high five.
+
+Jarrett puts his torch down in front of Vincent, looking peeved.
+
+$v[&quot;Jarrett, the tribe has spoken.&quot;] Vincent extinguishes the basketball player&#39;s torch. $v[&quot;It&#39;s time for you to go.&quot;]
+
+&quot;It&#39;s been real,&quot; says Jarrett. &quot;Maybe too real. Go choke, Louie.&quot;
+
+&quot;Get over yourself,&quot; Louie snaps, as Jarrett walks out of tribal.
+
+$v[&quot;It&#39;s not smart to take everything you see at face value,&quot;] says Vincent. $v[&quot;Jarrett saw a stable alliance and an easy vote, and he got a knife in the back. Let his game be a reminder that Survivor guarantees nothing and waits for no one. You can head back to camp.&quot;]
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+$c[&quot;I was taking out the threats for them, and this is how they repay me?&quot; Jarrett grimaces. &quot;Excuse me for having the balls to do what they couldn&#39;t. What&#39;s even worse than that is that I was betrayed when I decided to throw them a bone. I gave them an underhand pitch, and they beaned me in the head with the bat. Unbelievable.&quot;]
+
+Voting Results:
+**Jarrett - Candace, $q[Denine], Louie, Rhett, Vaclav**
+Louie - Ashleia, Buddy, Jarrett
 
 &lt;span class=&#39;episode&#39;&gt;[[Introduction&lt;-Back to Title Page]]&lt;/span&gt;</tw-passagedata></tw-storydata>
 
