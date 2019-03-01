@@ -58,7 +58,17 @@
 
 
 
+
+
+
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
 
 
 
@@ -116,10 +126,11 @@ Select an episode below:
 &lt;span class=&#39;episode&#39;&gt;[[Day 10&lt;-Episode 4 - &quot;Does the Medic Have Whiskey?&quot;]]&lt;/span&gt;
 &lt;span class=&#39;episode&#39;&gt;[[Day 12&lt;-Episode 5 - &quot;Idols Don&#39;t Tell Lies&quot;]]&lt;/span&gt;
 &lt;span class=&#39;episode&#39;&gt;[[Episode 6&lt;-Episode 6 - &quot;I&#39;d Prefer You Drop Dead&quot;]]&lt;/span&gt;
+&lt;span class=&#39;episode&#39;&gt;[[Day 18&lt;-Episode 7 - &quot;Good to See You&#39;re Still Alive&quot;]]&lt;/span&gt;
 (set: $arrive to &quot;The votenum members of votedpeople arrive at the Town Square and put their torches back where they belong.&quot;)
 (set: $votesarein to &quot;With the final vote cast, Vincent goes to the voting booth to collect the voting urn. $v[\&quot;Once the votes are read, the decision is final,\&quot;] says Vincent. $v[\&quot;The person voted off will be asked to leave the Tribal Council area immediately. I&#39;ll read the votes...\&quot;]&quot;)
 (set: $boot to &quot;person voted out of Survivor: Inca Legacy&quot;)
-</tw-passagedata><tw-passagedata pid="2" name="Day 1" tags="" position="251,280" size="100,100">**Day One
+(set: $juror to &quot;member of our jury&quot;)</tw-passagedata><tw-passagedata pid="2" name="Day 1" tags="" position="251,280" size="100,100">**Day One
 Challenge Beach**
 
 Vincent is standing at one side of the challenge beach, with three coloured banners fluttering behind him in the harsh wind.
@@ -674,7 +685,7 @@ Monty and Paula are crouched by the lakeshore, collecting water to boil.
 
 &quot;That&#39;s a good idea,&quot; Monty mumbles.
 
-&quot;I hope you haven&#39;t been saying that kind of stuff to anyone else,&quot; says Paula. &quot;Is that way Jackie wants to vote you out?&quot;
+&quot;I hope you haven&#39;t been saying that kind of stuff to anyone else,&quot; says Paula. &quot;Is that why Jackie wants to vote you out?&quot;
 
 Monty raises an eyebrow. &quot;I barely even talked to her. But that ain&#39;t no problem to me. We can sort that out if we lose, you know?&quot;
 
@@ -4811,7 +4822,7 @@ Monty nods. &quot;Keep it together, Vaz.&quot; He turns around and walks in the 
 ]
 &lt;br&gt;&lt;br&gt;
 (if: $selected is not 0)[&lt;span class=&#39;newday&#39;&gt;[[Day 15&lt;-Read Day 15]]&lt;/span&gt;]
-}</tw-passagedata><tw-passagedata pid="20" name="Day 17" tags="" position="416.66666666666663,775.8333333333334" size="100,100">**Day 17
+}</tw-passagedata><tw-passagedata pid="20" name="Day 17" tags="" position="416,775" size="100,100">**Day 17
 Immunity Challenge**
 
 (if: $selected is 1)[Before the challenge begins, Vincent explains to Chalpe that the incident at camp yesterday ended up destroying the chaotic energy force inside Percival, who no longer has any memory of this series. It turns out his body was hijacked over a century ago, and the real Percival thinks television is black magic so we&#39;re not going to be seeing him again.
@@ -5085,7 +5096,7 @@ Voting Results:
 Rocky - Monty, $c[Rhett]
 Denine - Jennifer, Paula
 
-&lt;span class=&#39;episode&#39;&gt;[[Introduction&lt;-Back to Title Page]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="21" name="Day 16" tags="" position="300,774.6666666666667" size="100,100">**Day 16
+&lt;span class=&#39;episode&#39;&gt;[[Introduction&lt;-Back to Title Page]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="21" name="Day 16" tags="" position="300,774" size="100,100">**Day 16
 Reward Challenge**
 
 The two tribes arrive at the challenge beach in the pouring rain, but Vincent says the show must go on, so they will be competing in the rain.
@@ -5499,7 +5510,871 @@ Denine glares. &quot;So what do you want?&quot;
 
 //&quot;So Rocky completely ruins everything for everyone, then tries throwing me under the bus, THEN wants me to forgive him!?&quot; Denine folds her arms. &quot;He&#39;s a bona fide dumbass. I don&#39;t want to deal with the other people here, though. I&#39;m doing nothing but sitting here getting rained on, and I just want to go and break something.&quot;//
 
-&lt;span class=&#39;newday&#39;&gt;[[Day 17&lt;-Read Day 17]]&lt;/span&gt;</tw-passagedata></tw-storydata>
+&lt;span class=&#39;newday&#39;&gt;[[Day 17&lt;-Read Day 17]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="22" name="Day 18" tags="" position="665,745" size="100,100">$t[**Day 18
+Town Square**]
+
+&quot;One vote. You couldn&#39;t even hold it together for ONE VOTE.&quot;
+
+As the six remaining members of Quibas arrive at the Town Square with Rhett, Jennifer is busy giving Jackie a hard time.
+
+&quot;I thought we were going to work together,&quot; says Jennifer, &quot;but what do you go and do? You stab me in the back and work for you know who!&quot;
+
+&quot;I said I wanted to work with you,&quot; says Jackie, &quot;but I also said that Monty was weak, he sucks, and he had to go.&quot;
+
+&quot;You never said that! What the hell are you on?&quot; Jennifer protests.
+
+//&quot;I&#39;m really disappointed in Jackie and Khall right now,&quot; says Jennifer. &quot;We had the numbers, and they just flip on us because they can&#39;t let the past go. I&#39;m pissed, because who knows if we&#39;re going to get a chance like that again?&quot;//
+
+&quot;You&#39;re making up a justification on the fly,&quot; says Rhett. &quot;You&#39;re hiding something!&quot;
+
+&quot;Stand down, guys,&quot; says Paula. &quot;She never liked Monty, even from the start. It made sense to her, it was just horrible timing on her part.&quot;
+
+&quot;Horrible timing? Oh come on, he wasn&#39;t your dad or anything,&quot; Jackie replies. &quot;Let it go, it&#39;s a game.&quot;
+
+&quot;Stuff it, Jackie,&quot; Jennifer snaps. &quot;&#39;It&#39;s a game&#39; but it&#39;s a million-dollar game. Of course we&#39;re going to take it seriously.&quot;
+
+&quot;Monty didn&#39;t,&quot; says Jackie. &quot;He was just here to &#39;have a good time and make friends&#39;. Like, who does that?&quot;
+
+&quot;I do,&quot; says Khall.
+
+&quot;That&#39;s, uh, great.&quot; Jackie turns to Khall. &quot;You can go and build a sandcastle, or stand on a cactus, or something now.&quot;
+
+Khall shrugs. &quot;I guess it is my defining character trait.&quot; He walks off.
+
+//&quot;Monty&#39;s gone, which is great for personal AND strategic reasons,&quot; says Denine. &quot;But what I didn&#39;t expect is for Jennifer to flip her lid, not on me or Rocky, but on Jackie. Please, burn some more bridges, I beg of you.&quot;//
+
+&quot;I&#39;m going to go and try to recuperate,&quot; says Paula. She turns around and walks back to camp, hands in her pockets.
+
+&quot;Awesome job,&quot; says Jennifer, &quot;you broke Paula.&quot;
+
+&quot;Serves her right for voting out Tara,&quot; Jackie replies.
+
+&quot;The first boot girl? You&#39;re still bitter about that?&quot; Rocky chuckles. &quot;I don&#39;t even remember the name of the first person I voted out.&quot;
+
+&quot;Min-Ji,&quot; Denine, Jackie, Jennifer, and Rhett say all at once.
+
+&quot;Oh yeah.&quot;
+
+&quot;Was that so hard?&quot; Denine asks sarcastically.
+
+//&quot;So Paula and Jennifer are upset about Monty leaving. So what? Now they know how it feels,&quot; says Jackie. &quot;You get rid of my friend, I get rid of yours. If anything you should be glad that it took as long as it did. And to be honest, I&#39;d like to see Paula follow him right out, considering how close they were.&quot;//
+
+$q[**Quibas**]
+
+Paula arrives back at camp, walks right past Khall (who is doing a handstand on a small cactus), and sits in the shelter. She buries her face in her knees, trying to keep herself from sobbing.
+
+Khall notices Paula&#39;s distress, drops off the cactus, and walks over to Paula, giving her a big hug.
+
+Paula can&#39;t hold it together any longer. She begins to cry into Khall&#39;s cloak.
+
+&quot;I&#39;m really sorry,&quot; says Khall.
+
+Paula says nothing, but returns the embrace.
+
+&quot;It&#39;s alright, Paula, it&#39;s okay to be sad over losing a friend,&quot; he continues.
+
+&quot;It&#39;s not even that,&quot; says Paula. &quot;I knew at some point Monty was going to get voted out. I just... didn&#39;t think it would be so sudden.&quot;
+
+&quot;And the way the other side seemed so mean-spirited about it,&quot; Khall adds.
+
+&quot;Exactly! See, you get it!&quot;
+
+//&quot;There are more feelings to Survivor than pride over getting a vote right, and anger over getting blindsided. I think some people don&#39;t realize that,&quot; Khall explains. &quot;This tribe doesn&#39;t have that human aspect right now.&quot;//
+
+&quot;I have to ask, how do you manage to put up with that?&quot; Paula asks.
+
+&quot;Put up with what?&quot; Khall asks in return.
+
+&quot;Jackie&#39;s attitude, she&#39;s so dismissive of you,&quot; says Paula. &quot;She&#39;s been using you for a vote. I don&#39;t see what you have in common.&quot;
+
+&quot;That&#39;s easy,&quot; says Khall. &quot;We make an entertaining duo because we&#39;re opposites. Our dynamic alternates based on whether the scene wants me to call out Jackie&#39;s recklessness and lack of foresight, or if it wants her to call out my flightiness and lack of common sense.&quot;
+
+&quot;I don&#39;t get it.&quot; Paula wipes her eyes. &quot;Jackie isn&#39;t the only person in the game, is she?&quot;
+
+Khall shakes his head.
+
+&quot;Then why do you act like she is? Do you really want to just be her follower?&quot;
+
+&quot;It&#39;s not that I want to,&quot; says Khall. &quot;It&#39;s just the way things work out, I guess.&quot;
+
+//&quot;I came back absolutely defeated,&quot; Paula explains, red in the face from crying, &quot;and it just all came out. I&#39;m glad I had Khall here to make me feel better. I just also have to break up his alliance before it even forms, so that&#39;s what I tried to do.&quot;//
+
+&quot;You think in terms of story lines, right?&quot; Paula asks.
+
+&quot;It&#39;s what I&#39;m used to,&quot; Khall replies.
+
+&quot;I think I have an idea,&quot; says Paula. &quot;What story line do you think is happening right now with you and Jackie?&quot;
+
+&quot;You know, I don&#39;t think I&#39;ve considered that,&quot; says Khall. &quot;What story line //is// happening?&quot;
+
+&quot;Well, Jackie criticized Monty for having an attitude similar to yours,&quot; says Paula. &quot;When you spoke up, she dismissed you. You lean on her for strategic advice, even when you know she&#39;s making a mistake.&quot;
+
+&quot;I got it!&quot; Khall snaps his fingers. &quot;This is still kind of the build-up, when a villainous character takes another character they think is slower, and tries to use them as a second vote, maybe even as a goat.&quot;
+
+Paula&#39;s eyes widen. &quot;And you don&#39;t see the problem here?&quot;
+
+&quot;Not really,&quot; Khall replies. &quot;The slower character, if they aren&#39;t a first boot, tend to make it deep into the swap before they&#39;re cut.&quot;
+
+&quot;We&#39;re in the seventh round,&quot; says Paula.
+
+&quot;Oooh, that&#39;s a problem,&quot; Khall replies. &quot;Eliminating me here would need some really contrived events to go down in the next few days..&quot;
+
+&quot;It took a lot of contrived events for Monty to suddenly be voted out,&quot; Paula counters.
+
+Khall blinks. &quot;You&#39;re right...&quot;
+
+&quot;My point is,&quot; Paula continues, &quot;it doesn&#39;t have to end that way.&quot;
+
+//&quot;I was wondering why I was getting so much visibility with Paula if we weren&#39;t connected by an alliance,&quot; says Khall. &quot;But this makes perfect sense. Maybe I&#39;m not meant to take the fall for Jackie. It&#39;s just a question of when that will come into play.&quot;//
+
+$c[**Chalpe**]
+
+Ashleia and Rhett are watching Buddy attempt to start a fire for the tribe.
+
+&quot;This shouldn&#39;t take too long, I hope,&quot; says Buddy.
+
+&quot;I seem to remember a fairly large argument happen the last time you said that,&quot; Rhett replies.
+
+Buddy stops, gives Rhett a dirty look, and gets back to work.
+
+&quot;We can&#39;t take any more time getting this started,&quot; says Ashleia. &quot;We are all soaked. We need the fire to help us dry off, right?&quot;
+
+&quot;You know, you don&#39;t have to question yourself all the time,&quot; Buddy replies.
+
+&quot;I&#39;m not. I&#39;m just, like, saying.&quot;
+
+//&quot;I can come up with ideas of my own,&quot; says Ashleia, bringing a hand to her chest. &quot;I&#39;m not stupid, I&#39;m a grown woman who can handle herself. I need to prove myself, and I won&#39;t do that by laying low.&quot;//
+
+&quot;I think I got something,&quot; Buddy says quietly.
+
+Rhett and Ashleia nod in approval, then turn to each other.
+
+&quot;So how do you feel about this group right here?&quot; Ashleia asks. &quot;Like, I was hoping we could come together last time but that didn&#39;t work.&quot;
+
+&quot;Every vote is different,&quot; Rhett explains. &quot;We needed to get rid of Jarrett last time. I don&#39;t think we need to get rid of anyone this time.&quot;
+
+&quot;You aren&#39;t, like, going to turn on me and Buddy?&quot; Ashleia asks.
+
+Rhett shakes his head. &quot;Unless you have any idols I should be worried about.&quot;
+
+Ashleia looks a little surprised. &quot;I don&#39;t have any idols.&quot;
+
+&quot;It would camouflage perfectly with your jewellery,&quot; says Rhett.
+
+//&quot;After the complete and utter humiliation I went through yesterday, I&#39;ve realized that nobody here can be trusted,&quot; Rhett explains. &quot;Ashleia was on Rocky&#39;s tribe, and they failed to vote him out. How can I be sure that she&#39;s not working with him... or worse, working **for** him?//
+
+&quot;I&#39;ve got something,&quot; says Buddy. &quot;Ash, come here, help me get it going.&quot;
+
+Ashleia nods, and kneels next to Buddy. The two attempt to feed the small flame with dry leaves, and gently blowing so it will catch.
+
+&quot;The hell is up with Rhett?&quot; Buddy asks.
+
+&quot;I don&#39;t know,&quot; Ashleia replies. &quot;Like, I don&#39;t get why he&#39;s so suspicious of everyone all of a sudden.&quot;
+
+&quot;Maybe he&#39;s just shaken up over the vote,&quot; Buddy replies. &quot;We were all talking about how we hope they finally get rid of Rocky, and lo and behold he&#39;s still over there.&quot;
+
+Ashleia looks over at Buddy in shock. &quot;Are you serious? They didn&#39;t vote him out?&quot;
+
+&quot;There was a split vote plan, and it went haywire, apparently,&quot; says Buddy.
+
+//&quot;So like, three different times people have been going after Rocky,&quot; says Ashleia, &quot;and then it changes at the last second and he&#39;s still here. I have a feeling that, like, this time it&#39;s not because someone didn&#39;t trust Monty. This is the game getting serious.&quot;//
+
+&quot;We can&#39;t take him for granted anymore,&quot; says Ashleia.
+
+&quot;Right. And if he finally does go, there are going to be people without any game plan because getting Rocky out is all they&#39;re talking about,&quot; Buddy adds.
+
+&quot;We should have the same game plan,&quot; says Ashleia. &quot;You&#39;re honest, and I need someone who&#39;s honest on my side.&quot;
+
+&quot;Deal,&quot; says Buddy. &quot;Let&#39;s keep an ear out, after almost a week something has got to give.&quot;
+
+//&quot;The whole tribe has been kind of disoriented since Jarrett left,&quot; Buddy explains. &quot;We have side deals here and there, but nothing is really coming together. Which is great for me and Ashleia, because we were on the wrong side last time. Jarrett was the A-type personality, and without him the others are just lost.&quot;//
+
+$q[**Quibas**]
+
+Denine is leaning against a tree with her right arm propped up above her head, when Rocky walks up to her.
+
+&quot;Hey, bestie,&quot; says Rocky with a fake enthusiasm.
+
+Denine rolls her eyes and looks away.
+
+&quot;Clearly you aren&#39;t doing anything important,&quot; says Rocky. &quot;What are you thinking about?&quot;
+
+&quot;How much everyone here sucks,&quot; says Denine, &quot;including you.&quot;
+
+&quot;But who sucks enough to be voted out?&quot;
+
+//&quot;We pulled off a great blindside last night,&quot; Rocky gloats. &quot;They were furious! We have the upper hand now, so we gotta keep that momentum and not let this opportunity go to waste.&quot;//
+
+&quot;Really, anyone,&quot; says Denine. &quot;I&#39;m just waiting to get to the merge to hook back up with Louie.&quot;
+
+&quot;Speaking of obvious duos,&quot; Rocky continues, &quot;you think we should stick with Jackie and Khall?&quot;
+
+Denine nods. &quot;Jackie wants Paula out, she&#39;ll get heat for that again, not us. And Jennifer wants nothing to do with any of us.&quot;
+
+&quot;Should we split the vote between Paula and Jen?&quot; Rocky asks. He and Denine look each other in the eyes for a second before bursting into laughter.
+
+//&quot;The rest of the tribe was expecting to have everyone around them fall in line,&quot; says Denine. &quot;The problem with that strategy is that it&#39;s stupid. You don&#39;t cast votes to send a message, you cast a vote to send a bitch packing, and that&#39;s the end of that. So that&#39;s what I&#39;m going to do with my vote.&quot;//
+
+Meanwhile, Jackie and Khall are sitting together by the fire.
+
+&quot;I kind of feel bad for voting Monty out,&quot; says Khall. &quot;He was a nice guy.&quot;
+
+&quot;Then we did not know the same guy named Monty,&quot; Jackie replies. &quot;He was obnoxious, he was ignorant, he was uncultured, and he was holding us back. Just watch, without him we&#39;re going to go back to winning.&quot;
+
+&quot;Is winning all that matters to you?&quot; Khall asks.
+
+&quot;No, of course not,&quot; says Jackie. &quot;It also matters that I do better than my sister.&quot;
+
+//&quot;Despite being totally witless, somehow my twin sister Emily managed to get 11th place when she played. And she wouldn&#39;t have gotten that far if it wasn&#39;t for Rex, so if I can do better than her with an ally dumber than Rex, that&#39;s its own kind of victory.&quot;//
+
+Denine then approaches the pair and sits down between them. &quot;Listen, we need to talk about our next steps,&quot; she says. &quot;So Jennifer hates us, and Paula&#39;s with her. We&#39;re going to have to stick together now.&quot;
+
+&quot;Then we&#39;re voting out Paula,&quot; says Jackie without missing a beat.
+
+&quot;Done. Do we need to kidnap anyone to make that happen?&quot; Denine asks.
+
+&quot;You, me, Rocky, and Khall. That&#39;s four. We don&#39;t need any more,&quot; says Jackie, &quot;let&#39;s not make a mistake and split it.&quot;
+
+&quot;Jennifer&#39;s stronger than Paula,&quot; says Denine, &quot;that&#39;s my only reservation. We can&#39;t keep Rocky around to stop her from winning immunities, because at some point he needs to go as well.&quot;
+
+&quot;We just need to wait for a trivia immunity challenge then,&quot; says Jackie.
+
+Denine smirks. &quot;Yeah, I could take her down in that.&quot;
+
+&quot;I was talking about myself beating her, but go off,&quot; says Jackie.
+
+&quot;I could probably beat her in a trivia challenge too,&quot; says Khall.
+
+&quot;If Khall can beat her, she&#39;s nothing to worry about.&quot; Jackie flips her hair. &quot;So there&#39;s no reason to keep Paula.&quot;
+
+//&quot;Paula tried to shade me for a poor social game, but who&#39;s the one with the majority alliance now?&quot; Denine shrugs, and smiles. &quot;I&#39;m not afraid of her or whatever plans she has, because I intend to keep the numbers and use them correctly.&quot;//
+
+$c[**Chalpe**]
+
+&quot;I feel nauseous...&quot;
+
+Candace is sitting down, back propped against a tree. Vaclav is sitting near her, sometimes looking at her, sometimes staring into the sky.
+
+&quot;Do you need something to eat?&quot; Vaclav asks. &quot;You can have half of my rice if it would help you feel better.&quot;
+
+&quot;I don&#39;t know, it might just come back up.&quot; Candace holds her head. &quot;This sucks.&quot;
+
+&quot;We don&#39;t have a challenge today, so try and take it easy,&quot; says Vaclav.
+
+//&quot;I have this queasy feeling in my gut that I can&#39;t shake,&quot; says Candace. &quot;It makes me feel like crap, and it&#39;s like everything around me is... five times worse. The sun&#39;s too bright but the shade is too cold, nature is too noisy, my clothes are itchy, and I just don&#39;t want to talk to anyone.&quot;//
+
+&quot;I&#39;m such an idiot. Why did I think I would be able to just kick the habit in a time like this?&quot; Candace groans.
+
+&quot;Kick the habit?&quot; Vaclav&#39;s eyes open wide. &quot;Why didn&#39;t you tell us this earlier? I&#39;m not going to judge you for it.&quot;
+
+&quot;Because really it&#39;s not your business,&quot; Candace replies coldly.
+
+&quot;When you&#39;re feeling weak and sad,&quot; says Vaclav, &quot;it&#39;s the tribe&#39;s business.&quot;
+
+&quot;...fine.&quot; Candace takes a deep breath. &quot;I used to vape. It was just harmless stuff, right? Blowing cloud rings, doing tricks, looking cool. I knew better than to do drugs, I barely even touched weed. But it was just a little liquid. I even stayed away from the gunk that probably had nicotine in it!&quot;
+
+&quot;Was it a hobby?&quot;
+
+&quot;Pretty much.&quot; Candace gently bites her lower lip for a second before continuing. &quot;My friends all did it. I thought I could be smart about vaping while doing it. I guess I was wrong.&quot;
+
+//&quot;When Candace told me her story about vaping, I was a little confused,&quot; says Vaclav. &quot;How can you be addicted... if there is no drug? I feel bad for her, but I don&#39;t know what is really wrong.&quot;//
+
+Louie arrives a little later, and he pulls Vaclav aside to talk.
+
+&quot;She&#39;s not feeling so hot,&quot; Vaclav explained. &quot;I don&#39;t know if she&#39;s sick or not.&quot;
+
+&quot;We might need to vote her out if she is,&quot; says Louie, &quot;for her own sake.&quot;
+
+&quot;What? But she sided with us,&quot; says Vaclav. &quot;Do you really want to stab her in the back? She would not be very happy.&quot;
+
+&quot;It doesn&#39;t matter to me,&quot; Louie replies. &quot;Her health comes first, and if that&#39;s what we use to vote her out, then that&#39;s what it has to be.&quot;
+
+&quot;I would not be very happy if someone did that to me and I was not sick,&quot; says Vaclav.
+
+&quot;Well, if she&#39;s not sick, we vote someone else,&quot; says Louie. &quot;The others have their reasons too. Listen, Vaclav, if you have a chance to eliminate someone without them even realizing they&#39;re in danger, you take it.&quot;
+
+//&quot;We have six people left on each tribe, and that doesn&#39;t leave much room for error,&quot; says Louie. &quot;We&#39;re past the point where votes were based on common sense consensus. I&#39;m not looking for the one that brings the team down, I&#39;m looking for who makes a good target.&quot;//
+
+&lt;span class=&#39;newday&#39;&gt;[[Day 19&lt;-Read Day 19]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="23" name="Day 19" tags="" position="787,743" size="100,100">**Day 19
+Reward Challenge**
+
+Everyone is competing in the beloved Pesky Palate challenge. Two players from opposing tribes will go head to head and see who can eat a native dish that might not sit well with them. First tribe to reach four points wins a trip to a Survivor Burger Bar with beer and cocktails to get the taste out of their mouth.
+
+&#39;&#39;Round One:&#39;&#39; $c[Vaclav] vs $q[Rocky]
+
+Rocky tells his tribe he&#39;s going to show them how it&#39;s done, only to have quite a bit of difficulty. Regardless, he finishes before Vaclav can, scoring the first point for $q[Quibas].
+
+&#39;&#39;Round Two:&#39;&#39; $c[Buddy] vs $q[Jackie]
+
+Jackie is incredibly hesitant, and Buddy takes advantage of her squeamishness to tie it up for $c[Chalpe].
+
+&#39;&#39;Round Three:&#39;&#39; $c[Louie] vs $q[Khall]
+
+Louie devours his dish before Khall can even react, putting $c[Chalpe] in the lead.
+
+&#39;&#39;Round Four:&#39;&#39; $c[Rhett] vs $q[Paula]
+
+In the closest match-up of the day, Rhett and Paula both manage to choke down the majority of their dishes. The first one to swallow their last bite is Paula, giving $q[Quibas] another point.
+
+&#39;&#39;Round Five:&#39;&#39; $c[Ashleia] vs $q[Jennifer]
+
+
+Both girls are squeamish, but neither backs down from the challenge. Ashleia struggles to recover after a too-large bite, however, and Jennifer comes back from behind to score the third point for $q[Quibas].
+
+&#39;&#39;Round Six:&#39;&#39; $c[Candace] vs $q[Denine]
+
+Candace takes one look at her dish, nearly vomits, and then passes out. Denine takes her time to finish her dish, not even looking at Candace.
+
+$q[Quibas wins reward!]
+$c[Chalpe loses, and returns to camp with nothing.]
+
+**Reward - $q[Quibas]**
+
+The winning tribe arrives at the burger bar, all of them ecstatic to get their hands on a good, filling meal.
+
+&quot;Make sure to savour it,&quot; says Denine as she assembles a burger, &quot;you gotta have it sink in more than the garbage we ate to win this.&quot;
+
+//&quot;I was wondering if we would get around to doing the Survivor buffet challenge,&quot; says Denine. &quot;And now that we actually did, I feel so amazing that I not only won my round but clinched the reward for my team! I totally could have done it even if my opponent didn&#39;t completely fall apart, too.&quot;//
+
+After having a few bites, some of the women excuse themselves, leaving Jennifer sitting with Khall and Rocky at the bar.
+
+&quot;Jennifer,&quot; says Rocky after taking a bite of his second burger, &quot;I think we got off on the wrong foot.&quot;
+
+Jennifer raises her eyebrows and drops her jaw. She says nothing, but the intensity of her sarcastic expression says enough.
+
+&quot;We&#39;ve both made mistakes, and I don&#39;t want to just be everyone&#39;s enemy all game,&quot; says Rocky. &quot;Care to forget the past and start fresh?&quot;
+
+&quot;It&#39;s going to take a lot more than that,&quot; says Jennifer. &quot;I&#39;m not going to be quick to forgive someone who needlessly harassed my tribe when we lost one time. You never have a good word to say about anyone. I don&#39;t like you as a person, and I don&#39;t want anything to do with you. Unless you say something that keeps both me and Paula safe if we lose, don&#39;t talk to me.&quot;
+
+&quot;Jennifer, I&#39;m sorry I didn&#39;t vote with you,&quot; says Khall, &quot;but you don&#39;t have to box all of us out.&quot;
+
+&quot;I would understand if it was a normal blindside,&quot; Jennifer replies, &quot;but Monty didn&#39;t do anything wrong. He was the one who said we should give Rocky a chance. We did, and then he blew it.&quot;
+
+&quot;Are you actually mourning him?&quot; Rocky asks in disbelief. &quot;If he was as good as you say he was, he would have been a jury threat anyways. Think about it: &#39;Ah&#39;m here because Ah want a better life for mah young&#39;uns.&#39; Everyone would eat that up and you know it. That&#39;s why I wanted to toss him like a moldy banana.&quot;
+
+&quot;First, bananas don&#39;t usually get moldy,&quot; says Jennifer, &quot;so you&#39;re an idiot. Second, isn&#39;t it just so convenient that you eliminated the guy that everyone liked except for Denine and Jackie? Hmm, what do those two have in common?&quot;
+
+&quot;Don&#39;t imply they&#39;re using me,&quot; Rocky snaps. &quot;It&#39;s the other way around. We both know that the two of us are the only ones actually using our brains here.&quot;
+
+&quot;Hey, don&#39;t say that in front of Khall,&quot; says Jennifer.
+
+&quot;He doesn&#39;t mind,&quot; Rocky replies.
+
+&quot;I do mind, actually,&quot; says Khall. &quot;I just didn&#39;t want to get involved.&quot;
+
+//&quot;Jennifer is my biggest rival right now,&quot; says Rocky. &quot;She&#39;s the only one who can really stand up to me, and that&#39;s kind of a problem. I don&#39;t want her out yet, if anything I think we can work together.&quot;//
+
+&quot;Here&#39;s the thing,&quot; says Rocky. &quot;We&#39;re going to win tomorrow. If we somehow don&#39;t, Paula&#39;s going home. We&#39;re going to need to stick together to survive at the merge.&quot;
+
+&quot;If you think I&#39;m going to agree to that, you&#39;re crazy,&quot; says Jennifer.
+
+&quot;Which part?&quot; Rocky asks.
+
+&quot;All of it, but especially the part about voting Paula. Over my dead body.&quot;
+
+&quot;It&#39;s her or you,&quot; says Rocky. &quot;And considering my friends want to vote Paula out, you should consider yourself lucky. And if you don&#39;t want to play along, that&#39;s fine. You can follow her right out the door.&quot;
+
+Jennifer shakes her head. &quot;If all you have are empty threats, then this circles back to the whole &#39;shut up, Rocky&#39; thing I was talking about. Bartender, can I get a Long Island iced tea?&quot;
+
+//&quot;This tribe is swelling with egos,&quot; says Jennifer. &quot;Rocky has one, Denine has one, Jackie has one. No way should those three all be able to keep it together. I&#39;m going to do everything I can to keep the only trustworthy person I have left from getting voted out.&quot;//
+
+Denine, Jackie, and Paula had excused themselves to have a conversation away from the burger bar.
+
+&quot;So, what did you call us over here for?&quot; Denine asks. &quot;You&#39;re holding me back from the alcohol, and mama&#39;s got needs.&quot;
+
+&quot;I&#39;m looking to shake things up,&quot; says Jackie. &quot;Paula, Denine, I trust you guys more than those three over there to not be dumb, so I&#39;m telling you only. I think Rocky&#39;s a threat, and we need to get him out.&quot;
+
+&quot;What?!&quot; Denine looks at Jackie in shock.
+
+Paula narrows her eyes. &quot;Well, Jackie, we were going to do that, and you decided to be selfish and made me lose my good friend. So why should I believe you this time?&quot;
+
+&quot;He knew he was on the outs last time,&quot; says Jackie. &quot;He saw it coming, so I had to vote Monty to make him //think// that I flipped.&quot;
+
+&quot;If you weren&#39;t flipping then why did you do it?&quot; Denine asks.
+
+&quot;We could afford to lose him,&quot; says Jackie.
+
+//&quot;I want to keep my options open,&quot; says Jackie. &quot;Rocky is going for Paula, Paula is going for Rocky, Jennifer and Denine I don&#39;t care, they&#39;ll stick with their allies. I&#39;m going to make sure I can kidnap the right person, so with Khall I&#39;ll have the majority and take out anyone.&quot;//
+
+&quot;So you want me to vote Rocky, even though people have tried and failed to do so three times already?&quot; Paula asks. &quot;He&#39;s still here, and I&#39;m starting to grow tired of the same old plan failing over and over.&quot;
+
+&quot;Your other option is to vote out Jennifer,&quot; says Denine. &quot;That&#39;s the option I suggest you go with, anyways.&quot;
+
+&quot;If it&#39;s the only thing I can do, then I might have to,&quot; Paula replies. &quot;You know I don&#39;t really want to, though.&quot;
+
+&quot;The ball&#39;s in your court,&quot; says Jackie. &quot;Just be sure to tell us, Jennifer or Rocky. One of them has to go.&quot; She walks off, giving a sly wink to Denine on the way back to the bar.
+
+Denine looks back at Paula. &quot;I&#39;m not going to lie, blindsiding Rocky when he thinks he&#39;s finally safe is tempting.&quot;
+
+&quot;I don&#39;t believe a single word that comes out of Jackie&#39;s mouth anymore,&quot; Paula replies, crossing her arms. &quot;She&#39;s not really planning to do that. Besides, she&#39;s dead to me.&quot; She blinks. &quot;Just don&#39;t tell her I said that.&quot;
+
+//&quot;If Jackie really did want to make amends, I don&#39;t see why she would wait so long to ask me,&quot; says Paula. &quot;I have a feeling that she wants either me or Jennifer out. I really need us to win tomorrow.&quot;//
+
+$c[**Chalpe**]
+
+Candace is lying down in the shelter, with a jacket draped over her. It is difficult to tell whether she is asleep, or merely trying to be.
+
+Vaclav looks at her, then looks back at Rhett. &quot;I think we should leave her be. It&#39;s best for her.&quot;
+
+//&quot;I think the reward would have been nice,&quot; says Candace. Her face is unusually pale. &quot;But when they needed my point to stay in, Quibas was already ahead. The reward wasn&#39;t worth it, in my opinion. I&#39;m more embarrassed that I fainted than I am upset.&quot;//
+
+&quot;This is the worst I&#39;ve seen her,&quot; says Rhett.
+
+Vaclav nods. &quot;I&#39;m worried. If she doesn&#39;t get better, we might have to vote her out so she gets better. That&#39;s a safe vote... a bit too safe. I can&#39;t be sure someone will use Candace being sick to split the vote.&quot;
+
+&quot;There aren&#39;t many people callous and cruel enough to keep someone who&#39;s clearly suffering in a state like this,&quot; says Rhett.
+
+&quot;If you&#39;re never callous and cruel, you can never win this game,&quot; Vaclav replies. &quot;There are no good guys, only temporary friends.&quot;
+
+//&quot;Vaclav is a very dangerous person,&quot; says Rhett. He folds his arms. &quot;He refuses to engage in good faith dialogues, and no bond is sacred to him. People like him, who are completely self-serving, are the most easily corrupted by those with money and power.&quot; Rhett lowers his voice to a somewhat loud whisper. &quot;I have a sinking feeling that Vaclav would plunge a knife in your back if the despotic Vincent Boucher or his producer henchmen demanded it.&quot;//
+
+Louie approaches his tribemates, and discretely taps Vaclav on the arm with one finger. &quot;I want to try something,&quot; he whispers.
+
+Vaclav makes a slight shrug gesture.
+
+&quot;She&#39;s not really looking much better, is she?&quot; Louie asks.
+
+&quot;She hasn&#39;t talked to us since after the challenge,&quot; Rhett replies.
+
+&quot;Mind if I take a look at her?&quot; Louie nudges Vaclav.
+
+&quot;Go ahead.&quot;
+
+Louie walks over to Candace, kneels close to her, and pretends to take her vitals.
+
+&quot;Nothing personal,&quot; he whispers to Candace, before getting up again.
+
+//&quot;I nearly went home last time we voted,&quot; says Louie. &quot;Normally I would be sweating bullets, but Vaclav is fine with me and everyone else is kind of an idiot.&quot; He smirks and leans forward over his pudgy legs. &quot;I don&#39;t see my name coming up tomorrow, and if it does, it won&#39;t mean anything.&quot;//
+
+&quot;Yeah, it looks really bad,&quot; says Louie. &quot;It&#39;s probably contagious. I suggest you try to avoid any physical contact with her, and try not to touch the same things she touches. Otherwise, you might get sick too.&quot;
+
+Vaclav and Rhett both look at the shelter and notice that Candace is sleeping under Rhett&#39;s purple and blue plaid jacket.
+
+&quot;We can carry one sick person, but not two,&quot; Louie continues.
+
+&quot;She&#39;s... using my jacket...&quot; Rhett stammers.
+
+&quot;Why isn&#39;t she using her own?&quot; Vaclav asks.
+
+&quot;Couldn&#39;t find it, I guess,&quot; Louie replies. &quot;And I couldn&#39;t give mine up. I don&#39;t want jaguar flu.&quot;
+
+&quot;She has jaguar flu!? Why aren&#39;t the medics doing anything?&quot; Rhett&#39;s eyes go wide. &quot;This is insane! Someone, anyone, help!&quot; He runs off, looking for someone to help.
+
+Vaclav stares wide-eyed at Louie. &quot;Does she really have jaguar flu?&quot; he asks.
+
+&quot;There&#39;s no such thing as jaguar flu,&quot; says Louie. &quot;For someone who says he&#39;s an intellectual activist, he&#39;s not that bright.&quot;
+
+//&quot;I do not know why Rhett is so quick to trust some people but not others,&quot; says Vaclav. &quot;He thinks Vincent, who is always nice and friendly, is out to get him. But for the people he lives with, who really could be plotting against him right in front of his face, he is gullible! I just do not understand.&quot;//
+
+$t[**Town Square**]
+
+Jackie, Ashleia, and Buddy all arrive at the town square at the same time from their respective tribes.
+
+&quot;It&#39;s good to see you&#39;re still alive,&quot; says Buddy. &quot;How was reward?&quot;
+
+&quot;I didn&#39;t eat a lot,&quot; Jackie replies. &quot;I was busy thinking for most of the time.&quot;
+
+&quot;Do you think the tribes will come together soon?&quot; Ashleia asks.
+
+Jackie nods. &quot;And I&#39;m glad that I ran into you guys, because I&#39;m definitely better off with you guys come merge than with my current tribe.&quot;
+
+&quot;We, like, already have the numbers,&quot; says Ashleia.
+
+&quot;You trust those people not to flip? We need backup,&quot; Buddy tells her.
+
+&quot;You&#39;re right, sorry.&quot; Ashleia&#39;s eyebrows lower, her expression losing its joy.
+
+//&quot;Buddy seems to have something against the others, no matter where he is,&quot; says Ashleia. &quot;I don&#39;t take it personally, I&#39;ve been around even more disrespectful men. He isn&#39;t smug about it like they are, and that&#39;s what, like, gets me so confused.&quot;//
+
+&quot;Who do you actually want out, that&#39;s what we need to know,&quot; says Buddy.
+
+&quot;Paula,&quot; says Jackie. &quot;Monty&#39;s gone, so now her time is up, too.&quot;
+
+Buddy&#39;s expression turns to confusion. &quot;Your... wasn&#39;t Paula your ally? You were on the same tribe together.&quot;
+
+&quot;Yeah, we were,&quot; says Jackie. &quot;But you were on the same tribe as Denine, and she says you two hate each other.&quot;
+
+&quot;Denine&#39;s a psychotic bitch who doesn&#39;t know when to stop,&quot; Buddy replies. &quot;What did //Paula// do to you? She&#39;s... she seems nice enough.&quot;
+
+&quot;She just doesn&#39;t listen to me,&quot; Jackie replies. &quot;And I can&#39;t communicate with someone who doesn&#39;t communicate back. You don&#39;t want to put your trust into someone like Paula who&#39;s difficult, manipulative, and-&quot;
+
+&quot;Alright, we&#39;re done talking,&quot; says Buddy.
+
+&quot;Excuse me?&quot; Jackie snaps.
+
+&quot;Did you not hear me?&quot; Buddy replies. &quot;Bye, Jackie!&quot;
+
+//&quot;I feel like I have to stand up for Paula sometimes,&quot; says Buddy. &quot;Not because she can&#39;t do it herself, but she just doesn&#39;t want to. She&#39;ll try to get around an obstacle before confronting it. The Paula that I know is nothing like what Jackie is saying about her, so I know that Jackie is a bad liar and a bad ally.&quot;//
+
+&quot;Um, Buddy, I think you&#39;re being a bit too, like, harsh,&quot; says Ashleia.
+
+&quot;And honestly how dare you,&quot; says Jackie.
+
+&quot;Jackie, who else would you vote out with our tribe?&quot; Ashleia asks.
+
+&quot;Like, I think Rocky and Jennifer,&quot; Jackie replies.
+
+&quot;We can&#39;t trust her to vote out Rocky,&quot; says Buddy. &quot;And hell no about Jennifer.&quot;
+
+&quot;I don&#39;t know if we can, like, actually vote Rocky out either so we&#39;re not going to try for right now,&quot; says Ashleia.
+
+&quot;Well,&quot; Jackie puts her hands on her hips and blows a raspberry. &quot;He&#39;s my other target, so if you loooove Paula and Jennifer so much, you should vote him out anyways.&quot;
+
+&quot;You&#39;re a waste of space,&quot; says Buddy. &quot;Bye bye. Get out.&quot;
+
+//&quot;I am speechless,&quot; says Jackie. &quot;I thought I could get Ashleia or Buddy to make sure Paula went home, but they&#39;re just so stubborn. Well, they&#39;ll have something coming when we merge. It might not be right away, but I will make sure they have zero chance of winning.&quot;//
+
+&lt;span class=&#39;newday&#39;&gt;[[Day 20&lt;-Read Day 20]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="24" name="Day 20" tags="" position="917,745" size="100,100">**Day 20
+Immunity Challenge**
+
+This challenge has two parts. In the first part, five contestants on each tribe have to alternate between jumping over and crawling under a set of eight horizontal beams. They must then lift one person up to a high platform, where they will cut a rope that releases a ladder for the other four to climb. All five of the contestants will then climb down a mesh ramp that returns them to ground level, where they face an oversized, sixteen-piece number puzzle. The sixth player has to direct the rest of their tribe to finish the puzzle. First tribe to complete the puzzle wins immunity.
+
+Both tribes quickly agree on an order. The physical component will be done by everyone except for $c[Ashleia] and $q[Jackie], who will direct the puzzle component.
+
+Out of the gate, Chalpe is slowed down by Louie, who struggles to pull himself over the beams due to his weight.
+
+Khall attempts to jump off one beam into a somersault underneath the next, but instead face-plants on the second beam. Despite Paula&#39;s concerns, he gets up and shakes the injury off as if nothing happened.
+
+Quibas arrives at the platform slightly before Chalpe, and they choose to lift Paula up to the platform. By the time they hoist her up, Louie has finally caught up with the rest of Chalpe.
+
+Paula picks up the machete, gets a feel for it, then steadily gets to work on cutting the rope.
+
+Chalpe chooses to lift Buddy up to their platform. Buddy takes his machete and forcefully swipes at the rope. The two best friends focus on the challenge, neither taking more than a glance at the other.
+
+Buddy finishes first, and when the ladder is released Candace races up first. Vaclav and Rhett stay behind to try and help Louie up the ladder before them. Candace stops and sits down when she reaches the top to catch her breath and wait for Louie.
+
+While Louie is climbing the ladder, Paula cuts her rope and the Quibas ladder comes down.
+
+Chalpe gets everyone up their ladder, they all run down the mesh ramp, and Ashleia immediately starts giving out instructions.
+
+Quibas takes slightly longer to get everyone up, and they all run down the mesh ramp together. Jackie starts rushing out commands to everyone in an attempt to take the lead back.
+
+Both tribes make a mistake or two, but it does not take too long for one tribe to find a rhythm. They take about five minutes to push all of the oversized number blocks into the right positions.
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+$c[Chalpe gets the right answer first, and they win immunity!]
+$q[Quibas loses, and will be headed to tribal council to vote off one of their own.]
+
+Vincent tells Quibas to kidnap someone besides Rhett from the Chalpe tribe. The majority votes to kidnap Vaclav.
+
+$c[**Chalpe**]
+
+After a satisfying victory, the Chalpe tribe is beginning to settle down for the night. Ashleia and Candace take a walk down a main path from camp, leaving the male tribemates to their own devices.
+
+&quot;I think I&#39;m getting better,&quot; says Candace to Ashleia. &quot;I was able to push through today. I didn&#39;t want to hold us back from immunity.&quot;
+
+&quot;Thank you,&quot; Ashleia replies. &quot;I know it must have been hard for you. If I was feeling as sick as you were yesterday, I wouldn&#39;t be able to function.&quot;
+
+Candace nods. &quot;I knew it was do or die.&quot;
+
+//&quot;I couldn&#39;t tell you how much of that was in my head versus actually coming down with something,&quot; Candace explains. &quot;I hit a boiling point. Day in and day out, I have to deal with toxic energy from almost everyone around me, and you can&#39;t just take that on the chin.&quot;//
+
+&quot;I would have tried to find a way to save you,&quot; says Ashleia.
+
+&quot;I appreciate it, Ash, I really do,&quot; Candace replies. &quot;But some of our teammates are out for blood. If they kidnapped the wrong person they would have tried to pull a power move. When someone has an idol, you can&#39;t predict how it&#39;s going to be played.&quot;
+
+&quot;Oh, I wasn&#39;t even thinking about that,&quot; says Ashleia.
+
+&quot;It&#39;s late enough in the game to be worrying about that,&quot; says Candace.
+
+//&quot;I wasn&#39;t, like, thinking about an idol for one reason,&quot; says Ashleia. &quot;If someone has it, they need to be sure it&#39;s worth not having it later. Nobody is going to take a sick person out premerge with an idol. They would be looking at people who scare them or hate them, and I haven&#39;t been scaring or hating anyone.&quot;//
+
+&quot;I think I&#39;ll get better if the fighting stops,&quot; says Candace.
+
+The girls arrive back at camp, and see Buddy and Louie standing next to the chicken cage.
+
+&quot;We might as well, to celebrate our win and all,&quot; says Buddy.
+
+&quot;We only have one chicken left, and it hasn&#39;t even been a week,&quot; Louie replies. &quot;We can still get some eggs out of her.&quot;
+
+&quot;Oh boy, one or two eggs divided between six people,&quot; says Buddy, rolling his eyes. &quot;And that will make all the difference.&quot;
+
+&quot;As opposed to one chicken today and no eggs ever again?&quot; Louie asks.
+
+&quot;If we merge next round, we would have to share that chicken,&quot; says Buddy, &quot;and it would be dumb of us to do that. This is **our** advantage that we won, we might as well enjoy it ourselves?&quot;
+
+&quot;And if we don&#39;t merge, then you look like an idiot.&quot;
+
+&quot;I&#39;m clearly not the only one willing to take that risk.&quot;
+
+Ashleia looks over at Candace, who is pinching the bridge of her nose. Suddenly, Candace nearly throws down her arm, and shouts at Buddy and Louie. &quot;Who gave you the chicken rights!?&quot;
+
+&quot;Chicken rights?&quot; Louie asks, confused.
+
+&quot;Rhett&#39;s the one who knows about chickens, why are you having a bitchfest about something you know nothing about?&quot; Candace yells. &quot;Have you even been feeding them since we got it? Because if not, we&#39;re going to have some weak ass chicken meat on our hands!&quot;
+
+&quot;Candace,&quot; Ashleia calls out, &quot;you just told me that this was the whole issue!&quot;
+
+&quot;This in particular,&quot; Candace replies, &quot;this **nonstop** battle of the egos, is **everyone&#39;s problem!**&quot;
+
+Ashleia sighs.
+
+//&quot;I&#39;m only hoping that the other tribe is as much of a total mess as ours,&quot; says Ashleia. &quot;We&#39;re going to need all the help we can get.&quot;//
+
+$q[**Quibas**]
+
+Paula, Jennifer, and Vaclav are sitting in the shelter discussing the vote.
+
+&quot;So, which way do we go? We&#39;re spoiled for choice,&quot; says Jennifer.
+
+&quot;Well, we need to either hope that they&#39;re splitting the votes or that I can get Khall to flip,&quot; says Paula. &quot;I&#39;ve been trying with him because I think he&#39;s our best bet.&quot;
+
+Jennifer and Vaclav share a pained glance.
+
+&quot;...what?&quot;
+
+//&quot;I&#39;m in a tough spot, but I have two ways out of here,&quot; says Paula. &quot;I have to at least do what&#39;s needed for both ways, and that is to find out what Khall sees and wants. He&#39;s more perceptive than people realize.&quot;//
+
+&quot;So voting him or Jackie is probably out of the question, even though they both deserve it,&quot; says Jennifer.
+
+&quot;Yeah, it could be Rocky or Denine again,&quot; Paula replies. &quot;It&#39;s not really up to us, though.&quot;
+
+&quot;I&#39;m not happy that your plan relies on the most difficult player to read,&quot; says Vaclav.
+
+&quot;Our only hope is that there&#39;s something that can help us that we&#39;re not seeing,&quot; says Jennifer. &quot;Vaclav, you&#39;re voting with us no matter what, right?&quot;
+
+Vaclav nods. &quot;I owe Paula for saving me, anyways.&quot;
+
+&quot;Monty was the one who almost got voted out,&quot; says Paula. &quot;If anything, I owe you for making me not look stupid.&quot;
+
+//&quot;I don&#39;t know if I&#39;ll side with Paula,&quot; says Vaclav. &quot;She was my friend, but I have friends on my new tribe now. I can&#39;t be hung up on old bonds, especially ones that I had trouble with, and tonight I might need to let go of one that I wanted to rely on.&quot;//
+
+Meanwhile, Denine, Jackie, and Khall are talking by the riverbank.
+
+&quot;So everything I said to Paula was a lie and I want her gone,&quot; says Jackie. &quot;Khall, I know you might like her, but I don&#39;t, and Denine doesn&#39;t so that&#39;s two against one.&quot;
+
+Khall looks at Denine, who shrugs.
+
+&quot;We couldn&#39;t compromise? I don&#39;t think she&#39;s the biggest threat,&quot; says Khall.
+
+&quot;She&#39;s been trouble for us since day one,&quot; Jackie replies. &quot;You haven&#39;t forgotten her voting Tara out for no reason, have you?&quot;
+
+&quot;No, no, of course not!&quot; Khall replies anxiously. &quot;I&#39;m just saying, are you not being a bit too rash?&quot;
+
+&quot;Rocky&#39;s already on board for Paula,&quot; says Denine. &quot;And we don&#39;t know if Vaclav is going to chicken out.&quot;
+
+//&quot;We should have the numbers tonight, but Vaclav was all about tribe unity last time I checked,&quot; says Jackie. &quot;To be sure, he should stick with us because then once Paula&#39;s gone we&#39;re all in the same alliance. I want Vaclav to be my third vote so I have control over Denine and Rocky.&quot;//
+
+Elsewhere, Rocky has got a hold of Vaclav.
+
+&quot;The chicks won&#39;t shut up about voting out Paula,&quot; says Rocky. &quot;Just join us and I&#39;ll make it worth your while.&quot;
+
+&quot;Are you trying to threaten me?&quot; Vaclav asks.
+
+&quot;No, just to bribe you,&quot; says Rocky. &quot;You&#39;re not the one who&#39;d hear the whining if it was only 4-3. They want to get to the merge with Jennifer as a get-out-of-jail-free card.&quot;
+
+&quot;I don&#39;t know if I can think that far ahead,&quot; says Vaclav.
+
+//&quot;Seeing as that I&#39;m the only one here who can plan their way out of a paper bag,&quot; Rocky explains, &quot;I want to have some guy time with the nerd from the other tribe so he knows how much easier it will be for all of us if he just rolls with us. I&#39;m not trying to ruffle any of these sissies&#39; feathers, so if someone else can be the deciding vote instead of me then the heat&#39;s off me once again.&quot;//
+
+Rocky is about to formulate a response, but someone comes up from behind and knocks him to the ground with a foot sweep. He cries out in pain, but his assailant talks over it.
+
+&quot;Oh, quit your bellyaching,&quot; says Khall. &quot;I want to talk to this guy now.&quot;
+
+Vaclav looks on in shock, but Khall continues talking. &quot;Jackie is really on me about voting out Paula. She thinks that I can&#39;t trust you.&quot;
+
+&quot;You can&#39;t trust anyone,&quot; says Vaclav.
+
+&quot;Not even me? That&#39;s not very nice,&quot; Khall replies.
+
+&quot;Sneak attacking me into the dirt wasn&#39;t very nice,&quot; Rocky groans.
+
+//&quot;I&#39;ve been with Jackie since the very beginning,&quot; says Khall. &quot;Is it right of me to turn my back on her in her time of need? She would do the same for me, I think, but I don&#39;t know for sure. And if I break my word, would she ever forgive me? I can&#39;t go on this alone, not when almost everyone else has a partner in crime.&quot;//
+
+&quot;What would you do,&quot; Khall asks, &quot;if you had to choose between keeping a promise and keeping a friend?&quot;
+
+&quot;Whichever one was better for my game,&quot; says Vaclav. &quot;And if you mean tonight... I&#39;m not sure yet, either.&quot;
+
+&quot;Ergh...&quot; Rocky grunts, attempting to get up from his nasty fall. &quot;Just vote Paula...&quot;
+
+$v[**Tribal Council**]
+
+The Quibas tribe and Vaclav walk into the tribal council building. They place their lit torches behind their seats, and sit down in front.
+
+$v[&quot;Welcome back, Quibas,&quot;] says Vincent. $v[&quot;I take it that things have been flipped around since last time, Rocky, or have they?&quot;]
+
+&quot;Obviously,&quot; says Rocky. &quot;Last time they got cocky and tried to throw one of their own under the bus because of an idol that didn&#39;t exist. So now we have the guilty parties on the bottom where they belong.&quot;
+
+&quot;And one of them is actually going,&quot; says Jackie. &quot;Because they had weak numbers, and we actually have a sturdy alliance. We even made sure we kidnapped someone to make it happen. I talked to Ashleia and Buddy, they didn&#39;t have the guts, so we have someone new here instead.&quot;
+
+&quot;So all your talk about catching Rocky with his pants down was a total lie?&quot; Paula asks.
+
+&quot;What, you didn&#39;t figure that out already?&quot; Jackie replies, with a smirk.
+
+&quot;Oh, I knew it wasn&#39;t true,&quot; says Paula. &quot;I&#39;m just shocked that you&#39;re admitting it so suddenly.&quot;
+
+&quot;I&#39;m just shocked that you knew you had no chance,&quot; says Jackie, &quot;and you still lost the challenge for us.&quot;
+
+$v[&quot;Denine, as someone who was taking heat last time, do you think you&#39;re in the clear tonight?&quot;]
+
+&quot;I think so,&quot; says Denine. &quot;Jennifer and Paula may be tight, but they&#39;re only two strong. The rest of us need to only take one of them out, and we won&#39;t make the same mistake of spreading ourselves thin like they did.&quot;
+
+&quot;You do realize why we split last time,&quot; says Jennifer.
+
+&quot;Do you have an idol?&quot; Denine asks.
+
+&quot;That&#39;s classified,&quot; Jennifer replies.
+
+Denine nods.
+
+$v[&quot;Vaclav, you weren&#39;t here last time, and you&#39;re getting thrown into the mess left behind by an incredible blindside. Does this make this vote any different from a vote held before the lines are drawn?&quot;]
+
+&quot;I&#39;m not sure whether I want to go with the flow or not,&quot; says Vaclav. &quot;The consensus seems to be voting out Paula, but I don&#39;t have the choice to make it unanimous, it seems. Jennifer, you&#39;re still with Paula, right?&quot;
+
+&quot;I&#39;m doing exactly what I told you I would do,&quot; says Jennifer.
+
+&quot;Care to elaborate?&quot; Rocky asks.
+
+&quot;Why should I?&quot; Jennifer snaps. &quot;Being coy worked out well for you, mister hotshot.&quot;
+
+Vaclav clears his throat. &quot;But I&#39;m not on this tribe. For me, there&#39;s no momentum to follow, I just have a vote that I can use to set the game up for myself.&quot;
+
+&quot;Cryptic,&quot; says Denine.
+
+$v[&quot;Jennifer, if Paula leaves tonight, that leaves you in a very bad spot. You don&#39;t sound like you&#39;re going to try to cut her loose for a better deal, so what can you do?&quot;]
+
+&quot;Pleading my case,&quot; says Jennifer. &quot;Vaclav, if you go back on your word just to look good to these morons, I will personally end you the first chance I get. You said it yourself, no momentum, so don&#39;t you dare take the cowardly way out.&quot;
+
+&quot;Don&#39;t get scared by her,&quot; says Rocky. &quot;She&#39;s all split vote and no bite.&quot;
+
+&quot;Shut up, Rocky!&quot;
+
+$v[&quot;Khall, is there anything to be gained from turning on someone right after saving them?&quot;]
+
+&quot;Not a lot,&quot; says Khall, &quot;but I don&#39;t want to do that.&quot;
+
+Jennifer grits her teeth in annoyance, while Denine smirks.
+
+&quot;Because last time I saved Denine!&quot; Khall exclaims. &quot;And she&#39;s not who I&#39;m voting for!&quot;
+
+&quot;We know you aren&#39;t, what&#39;s your point?&quot; says Jackie. &quot;Come on, I want to get to the good part.&quot;
+
+&quot;I&#39;m voting you out.&quot;
+
+Paula looks over at Jennifer and Vaclav, completely stunned. Denine&#39;s smirk fades away.
+
+&quot;By &#39;you&#39;, you mean Paula,&quot; says Jackie.
+
+&quot;No, I mean you, Jackie. I&#39;m voting against you tonight.&quot; Khall crosses his arms. &quot;I&#39;ve had enough of you bossing me around. You don&#39;t listen to my ideas, and whenever I come up with something smart you overrule me with something stupid.&quot;
+
+&quot;Stupid? Now isn&#39;t that ironic!&quot; Jackie snaps.
+
+&quot;It&#39;s not ironic,&quot; says Jennifer.
+
+&quot;I warned you that I didn&#39;t want Paula out, that we could be doing something else,&quot; says Khall. &quot;But you let your petty rivalry get in the way, and tried to guilt me into just following along!&quot;
+
+&quot;I&#39;ve been your best friend all game, since Paula voted out your other best friend!&quot; Jackie yells. &quot;Does that not mean anything to you? Do you think she will defend you the way I&#39;ve defended you? Now before you do anything **petty**, you should stick with where the numbers are and vote Paula out!&quot;
+
+&quot;You don&#39;t know numbers!&quot; Khall snaps. &quot;Your plans were always doomed to fail! Do you think Rocky and Denine care for you at all? We&#39;re a means to an end for them, and I thought you would have figured that out by now! And if I can&#39;t convince you that following them down into the pits of nobody-likes-you is a bad idea, then I need to cut my losses!&quot;
+
+&quot;Hell yeah!&quot; Jennifer and Paula cheer.
+
+&quot;No, that&#39;s wrong!&quot; Jackie turns to Denine and Rocky. &quot;You guys know I am one hundred percent with you. We still have the numbers, we can do this!&quot;
+
+Denine nods. &quot;Do you still want to do Paula? Or try switching to-&quot;
+
+Rocky scoffs. &quot;Fat chance! You think you&#39;re going to catch me on this sinking ship?&quot;
+
+&quot;Sinking ship!?&quot; Jackie snaps.
+
+&quot;You and Khall were a package deal,&quot; says Rocky. &quot;And now he wants nothing to do with you. The tables have turned, and I&#39;m not going to be on the losing side by sticking up for a backstabber.&quot;
+
+&quot;What the hell, Rocky?&quot; Denine glares. &quot;Right now we don&#39;t have the liberty to choose our allies.&quot;
+
+&quot;Khall does,&quot; says Rocky. He leans in to whisper to Denine. &quot;So we have to save face. I suggest you switch your vote to Jackie as well, if you want me as your meat shield and not the other way around.&quot;
+
+Jackie looks over at Vaclav. &quot;Please... you need to give me immunity. You want to keep the tribe together, don&#39;t you? We need to shake the game up.&quot;
+
+Vaclav appears deep in thought. Jackie, meanwhile, winks to Denine. Denine winks back, but immediately turns to cover her face with her hands.
+
+&quot;Don&#39;t fall for it,&quot; says Paula. &quot;It&#39;s a distraction. Keep it and put her out of her misery.&quot;
+
+&quot;I promise I won&#39;t vote for you if you give me immunity,&quot; Jackie replies.
+
+$v[&quot;Vaclav, what are you going to do? Will you give up your immunity?&quot;]
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+Vaclav sighs. &quot;Jackie. Do you swear that giving immunity to you won&#39;t send me home?&quot;
+
+Jackie nods. &quot;I&#39;m sure of it. I swear.&quot;
+
+&quot;I don&#39;t buy it. Let&#39;s vote.&quot;
+
+Jackie&#39;s jaw drops, and her face begins turning ghostly white.
+
+$v[&quot;That&#39;s settled, then. Paula, you&#39;re up first.&quot;]
+
+...
+
+Jennifer casts her vote for Jackie. &quot;Oh, how the whiny has fallen. Nice knowing you, hoe.&quot;
+
+Jackie casts her vote for Paula. &quot;You suck. You suck soooooo much. Everything that&#39;s gone wrong with this tribe has been your fault. You lost the challenge today, you&#39;re in the minority, you should be going home today. I HATE you, Paula! You suck! And tell Jennifer that she sucks too! You both suck, and Khall sucks, and Vaclav sucks, and Rocky sucks. I hope this camp burns to the ground! I deserve better than this, and how dare you all do this to me! Go to hell, all of you, but especially you, Paula!&quot;
+
+...
+
+$votesarein
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+$v[&quot;First vote... &#39;Paulawful.&#39; Ooookay. One vote for Paula.&quot;]
+
+&quot;So mature,&quot; says Paula.
+&lt;br&gt;
+&lt;br&gt;
+$v[&quot;Second vote is for Jackie.&quot;]
+
+Jackie folds her arms, scowling.
+&lt;br&gt;
+&lt;br&gt;
+$v[&quot;Jackie.&quot;]
+
+Rocky nudges Denine, who pushes him away.
+&lt;br&gt;
+&lt;br&gt;
+$v[&quot;Jackie. Three votes for Jackie, one vote for Paula.&quot;]
+
+Khall gives a thumbs up to Jennifer on his right side, then to Vaclav on his left.
+
+&quot;You actually disgust me,&quot; says Jackie.
+
+$v[&quot;Fifth vote... **Jackie**. That&#39;s four, that&#39;s enough, you are the seventh $boot. You need to bring me your torch.&quot;]
+
+Everyone looks happy with the results, except for Jackie and Denine.
+
+Jackie looks over at Denine before getting up. &quot;Don&#39;t pout, you&#39;re the one who didn&#39;t have the guts to stick up for me. You&#39;re not getting my coat.&quot;
+
+&quot;Thanks for playing,&quot; says Jennifer.
+
+Jackie shoves her torch into the slot in front of Vincent, who is waiting with a torch snuffer. $v[&quot;Jackie, the tribe has spoken.&quot;]
+
+&quot;And I hope they never speak again,&quot; says Jackie, as she watches her torch get extinguished with dramatic music playing overhead.
+
+$v[&quot;It&#39;s time for you to go.&quot;]
+
+Jackie marches out of the tribal council building, arms completely straight as she sways them back and forth. Her hands are on the verge of clenching into fists.
+
+$v[&quot;No matter how solid a plan seems,&quot;] says Vincent, $v[&quot;the winds of change can come and blow anyone out of the game. You can never be sure when those winds may come. You can head back to camp.&quot;]
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+$q[&quot;That was so unfair,&quot; says Jackie, still scowling. &quot;I made a great move last time, and I expected the others to listen to me, but then I get stabbed in the back by **Khall** of all people? I trusted them to do the right thing and vote Paula out, and they crushed my heart! They don&#39;t know what they&#39;re doing, and it&#39;s going to come back to haunt them, and I won&#39;t be feeling sorry! At least I got... no, they wouldn&#39;t even let me get farther than my stupid sister!&quot; She pulls her forearms in front of her face and screams in frustration.]
+
+Voting Results:
+**Jackie - Denine, Jennifer, Khall, Paula, Rocky, $c[Vaclav]**
+Paula - Jackie
+
+&lt;span class=&#39;episode&#39;&gt;[[Introduction&lt;-Back to Title Page]]&lt;/span&gt;</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
